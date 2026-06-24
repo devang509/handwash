@@ -1,0 +1,1760 @@
+<!DOCTYPE html>
+<html class="light scroll-smooth" lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Valley Lemon Hand Wash | Pure Hygiene for Every Home</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+    <script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#006e0a",
+                        "on-primary": "#ffffff",
+                        "primary-container": "#32cd32",
+                        "on-primary-container": "#005105",
+                        "secondary": "#62603d",
+                        "on-secondary": "#ffffff",
+                        "secondary-container": "#e9e4b8",
+                        "on-secondary-container": "#686643",
+                        "tertiary": "#5a632e",
+                        "on-tertiary": "#ffffff",
+                        "tertiary-container": "#afb87a",
+                        "on-tertiary-container": "#414917",
+                        "background": "#f9f9f9",
+                        "on-background": "#1a1c1c",
+                        "surface": "#f9f9f9",
+                        "on-surface": "#1a1c1c",
+                        "surface-variant": "#e2e2e2",
+                        "on-surface-variant": "#3d4a39",
+                        "outline": "#6d7b67",
+                        "outline-variant": "#bccbb4",
+                        "surface-container": "#eeeeee",
+                        "surface-container-low": "#f3f3f4",
+                        "surface-container-high": "#e8e8e8",
+                        "surface-container-highest": "#e2e2e2",
+                        "surface-bright": "#f9f9f9",
+                        "surface-dim": "#dadada",
+                        "surface-container-lowest": "#ffffff"
+                    },
+                    borderRadius: {
+                        "sm": "0.25rem",
+                        "DEFAULT": "0.5rem",
+                        "md": "0.75rem",
+                        "lg": "1.0rem",
+                        "xl": "1.5rem",
+                        "full": "9999px"
+                    },
+                    spacing: {
+                        "base": "8px",
+                        "section-gap": "80px",
+                        "container-max": "1200px",
+                        "gutter": "24px",
+                        "margin-mobile": "16px"
+                    },
+                    fontFamily: {
+                        "display-lg": ["Montserrat", "sans-serif"],
+                        "headline-lg": ["Montserrat", "sans-serif"],
+                        "label-sm": ["Plus Jakarta Sans", "sans-serif"],
+                        "body-md": ["Plus Jakarta Sans", "sans-serif"],
+                        "headline-lg-mobile": ["Montserrat", "sans-serif"]
+                    },
+                    fontSize: {
+                        "display-lg": ["48px", { "lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "700" }],
+                        "headline-lg": ["32px", { "lineHeight": "40px", "fontWeight": "600" }],
+                        "label-sm": ["12px", { "lineHeight": "16px", "letterSpacing": "0.05em", "fontWeight": "600" }],
+                        "body-md": ["16px", { "lineHeight": "24px", "fontWeight": "400" }],
+                        "headline-lg-mobile": ["28px", { "lineHeight": "36px", "fontWeight": "600" }]
+                    }
+                },
+            },
+        }
+    </script>
+    <style>
+        .citrus-glow {
+            box-shadow: 0 12px 30px -8px rgba(0, 110, 10, 0.06), 0 4px 12px -2px rgba(50, 205, 50, 0.04);
+            transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        .citrus-glow:hover {
+            box-shadow: 0 20px 40px -10px rgba(0, 110, 10, 0.12), 0 8px 20px -4px rgba(50, 205, 50, 0.06);
+            transform: translateY(-2px) scale(1.01);
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.55);
+            backdrop-filter: blur(14px) saturate(110%);
+            -webkit-backdrop-filter: blur(14px) saturate(110%);
+            border: 1px solid rgba(255, 255, 255, 0.4);
+            box-shadow: 0 8px 32px 0 rgba(0, 110, 10, 0.02);
+            transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        .glass-card:hover {
+            background: rgba(255, 255, 255, 0.7);
+            border-color: rgba(0, 110, 10, 0.15);
+        }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+            display: inline-block;
+            vertical-align: middle;
+        }
+        @keyframes float-bubble-slow {
+            0% { transform: translateY(0px) translateX(0px) rotate(0deg); opacity: 0; }
+            10% { opacity: 0.3; }
+            90% { opacity: 0.3; }
+            100% { transform: translateY(-150px) translateX(30px) rotate(360deg); opacity: 0; }
+        }
+        .floating-bubble {
+            animation: float-bubble-slow 12s infinite linear;
+            pointer-events: none;
+        }
+        @keyframes float-hero {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-12px); }
+            100% { transform: translateY(0px); }
+        }
+        .animate-float-hero {
+            animation: float-hero 6s ease-in-out infinite;
+        }
+        .hide-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .hide-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+        .reveal {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1), transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        .reveal-active {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        .clamp-2 {
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+        .squircle {
+            border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%;
+        }
+        .btn-shine-parent {
+            position: relative;
+            overflow: hidden;
+        }
+        .btn-shine-parent::after {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -60%;
+            width: 30%;
+            height: 200%;
+            background: rgba(255, 255, 255, 0.25);
+            transform: rotate(30deg);
+            transition: all 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+            opacity: 0;
+        }
+        .btn-shine-parent:hover::after {
+            left: 130%;
+            opacity: 1;
+        }
+        .bg-glow {
+            position: absolute;
+            width: 400px;
+            height: 400px;
+            border-radius: 50%;
+            background: radial-gradient(circle, rgba(50, 205, 50, 0.08) 0%, rgba(233, 228, 184, 0.08) 50%, rgba(255,255,255,0) 100%);
+            filter: blur(40px);
+            z-index: 0;
+            pointer-events: none;
+        }
+    </style>
+</head>
+<body class="font-body-md text-on-surface bg-background min-h-screen relative flex flex-col hide-scrollbar overflow-x-hidden selection:bg-primary/20 selection:text-primary">
+    <div id="scroll-progress" class="fixed top-0 left-0 h-1 bg-gradient-to-r from-primary to-primary-container z-[100] w-0 transition-all duration-100"></div>
+    
+    <div class="absolute top-[10%] left-[-100px] bg-glow w-[350px] h-[350px]"></div>
+    <div class="absolute top-[40%] right-[-100px] bg-glow w-[400px] h-[400px] opacity-75"></div>
+    <div class="absolute bottom-[20%] left-[-150px] bg-glow w-[450px] h-[450px] opacity-60"></div>
+
+    <div class="absolute inset-0 overflow-hidden pointer-events-none z-0">
+        <svg class="floating-bubble absolute top-[15%] left-[5%] w-8 h-8 text-primary/10" fill="currentColor" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/></svg>
+        <svg class="floating-bubble absolute top-[30%] left-[85%] w-12 h-12 text-secondary-container/20" style="animation-delay: 3s; animation-duration: 15s;" fill="currentColor" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/></svg>
+        <svg class="floating-bubble absolute top-[65%] left-[12%] w-10 h-10 text-primary-container/10" style="animation-delay: 1.5s; animation-duration: 9s;" fill="currentColor" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/></svg>
+        <svg class="floating-bubble absolute top-[85%] left-[78%] w-14 h-14 text-secondary-container/15" style="animation-delay: 4.5s; animation-duration: 18s;" fill="currentColor" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/></svg>
+    </div>
+
+    <!-- TopAppBar -->
+    <header class="fixed top-0 w-full z-[80] bg-white/80 backdrop-blur-md border-b border-outline-variant/10 shadow-sm transition-all duration-300">
+        <div class="flex justify-between items-center px-gutter h-16 w-full max-w-container-max mx-auto">
+            <div class="flex items-center gap-4">
+                <button id="menu-btn" class="material-symbols-outlined text-on-surface hover:text-primary transition-colors cursor-pointer p-1.5 hover:bg-primary/10 rounded-full focus:outline-none" aria-label="Open navigation menu">menu</button>
+                <div class="flex items-center gap-2">
+                    <svg class="w-7 h-7 text-primary" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM12 4C16.42 4 20 7.58 20 12C20 12.89 19.85 13.74 19.59 14.54L16.29 11.24C16.89 10.4 17 9.27 16.29 8.56C15.58 7.85 14.45 7.96 13.61 8.56L10.31 5.26C11.11 5 11.96 4.85 12.85 4.85C12.56 4.56 12.28 4.28 12 4ZM8.56 16.29C7.85 15.58 7.96 14.45 8.56 13.61L5.26 10.31C5 11.11 4.85 11.96 4.85 12.85C4.56 12.56 4.28 12.28 4 12C4 7.58 7.58 4 12 4C12.89 4 13.74 4.15 14.54 4.41L11.24 7.71C10.4 7.11 9.27 7 8.56 7.71C7.85 8.42 7.96 9.55 8.56 10.39L5.26 13.69C5 12.89 4.85 12.04 4.85 11.15C4.56 11.44 4.28 11.72 4 12C4 16.42 7.58 20 12 20C12.89 20 13.74 19.85 14.54 19.59L11.24 16.29C10.4 16.89 9.27 17 8.56 16.29Z" fill="currentColor"/>
+                    </svg>
+                    <span class="font-display-lg text-primary tracking-tight text-[24px] font-black uppercase">Valley</span>
+                </div>
+            </div>
+            <nav class="hidden md:flex gap-8 items-center">
+                <a class="text-primary font-bold font-label-sm text-[13px] relative after:absolute after:bottom-[-4px] after:left-0 after:w-full after:h-0.5 after:bg-primary transition-all" href="#home">Home</a>
+                <a class="text-on-surface-variant hover:text-primary transition-all font-label-sm text-[13px] relative after:absolute after:bottom-[-4px] after:left-0 after:w-0 after:h-0.5 after:bg-primary hover:after:w-full after:transition-all" href="#products">Products</a>
+                <a class="text-on-surface-variant hover:text-primary transition-all font-label-sm text-[13px] relative after:absolute after:bottom-[-4px] after:left-0 after:w-0 after:h-0.5 after:bg-primary hover:after:w-full after:transition-all" href="#reviews">Reviews</a>
+            </nav>
+            <div class="flex items-center gap-2">
+                <button id="settings-btn" class="p-2 hover:bg-primary/10 rounded-full transition-colors cursor-pointer focus:outline-none" aria-label="Store Settings">
+                    <span class="material-symbols-outlined text-primary text-[26px]">settings</span>
+                </button>
+                <button id="cart-btn" class="relative p-2 hover:bg-primary/10 rounded-full transition-colors cursor-pointer focus:outline-none" aria-label="Open cart">
+                    <span class="material-symbols-outlined text-primary text-[26px]">shopping_cart</span>
+                    <span id="cart-badge" class="absolute top-0 right-0 bg-primary-container text-on-primary-container text-[10px] font-bold w-5 h-5 rounded-full flex items-center justify-center border border-white scale-0 transition-transform duration-300">0</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Navigation Drawer -->
+    <div id="mobile-menu-drawer" class="fixed inset-0 z-[100] hidden" aria-modal="true" role="dialog">
+        <div id="mobile-menu-backdrop" class="absolute inset-0 bg-black/45 backdrop-blur-sm opacity-0 transition-opacity duration-300"></div>
+        <div id="mobile-menu-panel" class="absolute top-0 left-0 bottom-0 w-[280px] bg-white shadow-2xl p-6 flex flex-col justify-between transform -translate-x-full transition-transform duration-300 border-r border-outline-variant/20 rounded-r-xl">
+            <div>
+                <div class="flex items-center justify-between mb-8 pb-4 border-b border-outline-variant/20">
+                    <div class="flex items-center gap-2">
+                        <span class="font-display-lg text-primary tracking-tight text-[22px] font-black uppercase">Valley</span>
+                    </div>
+                    <button id="menu-close-btn" class="material-symbols-outlined text-on-surface-variant hover:text-primary transition-colors cursor-pointer p-1.5 hover:bg-primary/10 rounded-full">close</button>
+                </div>
+                <nav class="flex flex-col gap-5">
+                    <a class="mobile-menu-link text-primary font-bold text-base flex items-center gap-3 py-2 px-3 rounded-lg bg-primary/5" href="#home"><span class="material-symbols-outlined text-[20px]">home</span>Home</a>
+                    <a class="mobile-menu-link text-on-surface-variant hover:text-primary hover:bg-primary/5 transition-all text-base flex items-center gap-3 py-2 px-3 rounded-lg" href="#why-choose-us"><span class="material-symbols-outlined text-[20px]">verified</span>Why Us</a>
+                    <a class="mobile-menu-link text-on-surface-variant hover:text-primary hover:bg-primary/5 transition-all text-base flex items-center gap-3 py-2 px-3 rounded-lg" href="#products"><span class="material-symbols-outlined text-[20px]">grid_view</span>Products</a>
+                    <a class="mobile-menu-link text-on-surface-variant hover:text-primary hover:bg-primary/5 transition-all text-base flex items-center gap-3 py-2 px-3 rounded-lg" href="#reviews"><span class="material-symbols-outlined text-[20px]">rate_review</span>Reviews</a>
+                    <a class="mobile-menu-link text-on-surface-variant hover:text-primary hover:bg-primary/5 transition-all text-base flex items-center gap-3 py-2 px-3 rounded-lg" href="#faq"><span class="material-symbols-outlined text-[20px]">quiz</span>FAQs</a>
+                    <button id="mobile-settings-btn" class="mobile-menu-link text-on-surface-variant hover:text-primary hover:bg-primary/5 transition-all text-base flex items-center gap-3 py-2 px-3 rounded-lg w-full text-left focus:outline-none">
+                        <span class="material-symbols-outlined text-[20px]">settings</span>Developer Settings
+                    </button>
+                </nav>
+            </div>
+            <div class="pt-6 border-t border-outline-variant/20">
+                <button id="menu-standards-btn" class="w-full bg-secondary-container text-on-secondary-container hover:bg-secondary-container/80 transition-colors py-3 px-4 rounded-full font-label-sm text-[12px] font-semibold flex items-center justify-center gap-2">
+                    <span class="material-symbols-outlined text-[16px]">science</span>Our Standards
+                </button>
+                <p class="text-[11px] text-on-surface-variant/50 text-center mt-4">© 2024 Valley Lemon Hand Wash</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sliding Shopping Cart Drawer -->
+    <div id="cart-drawer" class="fixed inset-0 z-[100] hidden" aria-modal="true" role="dialog">
+        <div id="cart-backdrop" class="absolute inset-0 bg-black/45 backdrop-blur-sm opacity-0 transition-opacity duration-300"></div>
+        <div id="cart-panel" class="absolute top-0 right-0 bottom-0 w-full sm:w-[400px] bg-white shadow-2xl flex flex-col justify-between transform translate-x-full transition-transform duration-300 border-l border-outline-variant/20 rounded-l-xl">
+            <div class="p-6 border-b border-outline-variant/15 flex items-center justify-between bg-surface-container-low">
+                <div class="flex items-center gap-2.5">
+                    <span class="material-symbols-outlined text-primary text-[28px]">shopping_basket</span>
+                    <div>
+                        <h2 class="font-bold text-lg text-on-surface">Your Basket</h2>
+                        <p id="cart-count-txt" class="text-xs text-on-surface-variant/75">0 items selected</p>
+                    </div>
+                </div>
+                <button id="cart-close-btn" class="material-symbols-outlined text-on-surface-variant hover:text-primary cursor-pointer p-1.5 hover:bg-primary/10 rounded-full transition-colors">close</button>
+            </div>
+            <div id="cart-items-wrapper" class="flex-1 overflow-y-auto p-6 space-y-4 bg-background/50"></div>
+            <div id="cart-checkout-box" class="p-6 border-t border-outline-variant/15 bg-surface-container-low">
+                <div class="space-y-3 mb-6">
+                    <div class="flex justify-between items-center text-sm text-on-surface-variant">
+                        <span>Items Subtotal</span>
+                        <span id="cart-subtotal" class="font-semibold text-on-surface">₹0</span>
+                    </div>
+                    <div class="flex justify-between items-center text-sm text-on-surface-variant">
+                        <span>Delivery Charges</span>
+                        <span id="cart-shipping" class="font-semibold text-primary">FREE</span>
+                    </div>
+                    <div class="h-[1px] bg-outline-variant/20 my-2"></div>
+                    <div class="flex justify-between items-center text-base">
+                        <span class="font-bold text-on-surface">Estimated Total</span>
+                        <span id="cart-total" class="font-bold text-primary text-xl">₹0</span>
+                    </div>
+                </div>
+                <button id="checkout-btn" class="w-full bg-primary text-white hover:bg-primary-container/95 transition-all py-4 rounded-full font-label-sm text-[14px] font-bold shadow-lg citrus-glow hover:shadow-xl btn-shine-parent flex items-center justify-center gap-2">
+                    <span class="material-symbols-outlined text-[20px]">credit_card</span>Proceed to Checkout
+                </button>
+                <button id="cart-continue-btn" class="w-full text-center text-primary font-bold text-xs mt-4 hover:underline">Continue Shopping</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Standards Modal -->
+    <div id="standards-modal" class="fixed inset-0 z-[110] flex items-center justify-center hidden px-4" aria-modal="true">
+        <div id="standards-backdrop" class="absolute inset-0 bg-black/50 backdrop-blur-sm opacity-0 transition-opacity duration-300"></div>
+        <div id="standards-card" class="relative bg-white/95 backdrop-blur-xl border border-white/50 p-6 md:p-8 rounded-2xl max-w-lg w-full shadow-2xl transform scale-95 opacity-0 transition-all duration-300 z-10">
+            <button id="standards-close-btn" class="absolute top-4 right-4 material-symbols-outlined text-on-surface-variant hover:text-primary cursor-pointer p-1.5 hover:bg-primary/10 rounded-full">close</button>
+            <div class="text-center mb-6">
+                <div class="w-12 h-12 rounded-full bg-primary/10 text-primary flex items-center justify-center mx-auto mb-3">
+                    <span class="material-symbols-outlined text-[28px]">shield_with_heart</span>
+                </div>
+                <h3 class="font-display-lg text-[22px] text-on-surface font-extrabold">Safety & Purity Standards</h3>
+                <p class="text-xs text-on-surface-variant mt-1">Valley Lemon is clinically crafted for maximum protection and daily care.</p>
+            </div>
+            <div class="space-y-4">
+                <div class="flex items-start gap-3.5 p-3 rounded-xl hover:bg-primary/5 transition-all">
+                    <span class="material-symbols-outlined text-primary bg-primary/10 p-1.5 rounded-lg mt-0.5">water_drop</span>
+                    <div>
+                        <h4 class="font-bold text-[14px] text-on-surface">pH Balanced Formula (5.5)</h4>
+                        <p class="text-xs text-on-surface-variant mt-0.5">Formulated specifically to match the skin's natural acidic pH. Cleanses deeply without stripping natural moisture, preventing skin irritation and dryness.</p>
+                    </div>
+                </div>
+                <div class="flex items-start gap-3.5 p-3 rounded-xl hover:bg-primary/5 transition-all">
+                    <span class="material-symbols-outlined text-primary bg-primary/10 p-1.5 rounded-lg mt-0.5">clean_hands</span>
+                    <div>
+                        <h4 class="font-bold text-[14px] text-on-surface">99.9% Germ Protection</h4>
+                        <p class="text-xs text-on-surface-variant mt-0.5">Dermatologically certified to defend against illness-causing germs and bacteria. Active ingredients are tested for food hygiene and kids' skin safety.</p>
+                    </div>
+                </div>
+                <div class="flex items-start gap-3.5 p-3 rounded-xl hover:bg-primary/5 transition-all">
+                    <span class="material-symbols-outlined text-primary bg-primary/10 p-1.5 rounded-lg mt-0.5">eco</span>
+                    <div>
+                        <h4 class="font-bold text-[14px] text-on-surface">Organic Valley Lemon Extracts</h4>
+                        <p class="text-xs text-on-surface-variant mt-0.5">Infused with real hand-picked lemon and jasmine oils. A natural anti-bacterial agent, leaving a fresh aroma without synthetic toxins.</p>
+                    </div>
+                </div>
+                <div class="flex items-start gap-3.5 p-3 rounded-xl hover:bg-primary/5 transition-all">
+                    <span class="material-symbols-outlined text-primary bg-primary/10 p-1.5 rounded-lg mt-0.5">safety_check</span>
+                    <div>
+                        <h4 class="font-bold text-[14px] text-on-surface">100% Paraben & Sulfate Free</h4>
+                        <p class="text-xs text-on-surface-variant mt-0.5">Crafted entirely without harmful parabens, phthalates, SLS, or synthetic color additives. Cruelty-free and completely biodegradable.</p>
+                    </div>
+                </div>
+            </div>
+            <button id="standards-modal-btn" class="w-full bg-primary text-white hover:bg-primary-container/95 transition-all py-3.5 rounded-full font-label-sm text-[13px] font-bold mt-6 shadow-md citrus-glow">
+                Okay, I Trust It
+            </button>
+        </div>
+    </div>
+
+    <!-- Product Quick View Modal -->
+    <div id="quickview-modal" class="fixed inset-0 z-[110] flex items-center justify-center hidden px-4" aria-modal="true">
+        <div id="quickview-backdrop" class="absolute inset-0 bg-black/50 backdrop-blur-sm opacity-0 transition-opacity duration-300"></div>
+        <div id="quickview-card" class="relative bg-white/95 backdrop-blur-xl border border-white/50 p-6 md:p-8 rounded-2xl max-w-2xl w-full shadow-2xl transform scale-95 opacity-0 transition-all duration-300 z-10 flex flex-col md:flex-row gap-6">
+            <button id="quickview-close-btn" class="absolute top-4 right-4 material-symbols-outlined text-on-surface-variant hover:text-primary cursor-pointer p-1.5 hover:bg-primary/10 rounded-full z-20">close</button>
+            <div class="w-full md:w-1/2 flex items-center justify-center bg-surface-container-low rounded-xl p-4 border border-outline-variant/15 relative overflow-hidden group">
+                <div class="absolute inset-0 bg-gradient-to-br from-white/10 to-primary/5 opacity-50 z-0"></div>
+                <img id="quickview-img" src="" alt="" class="max-h-[260px] md:max-h-[300px] w-auto object-contain drop-shadow-xl z-10 transition-transform duration-500 group-hover:scale-105"/>
+            </div>
+            <div class="w-full md:w-1/2 flex flex-col justify-between">
+                <div>
+                    <span id="quickview-tag" class="inline-block bg-primary/10 text-primary border border-primary/20 text-[10px] font-bold tracking-wider uppercase px-2 py-0.5 rounded-full mb-2"></span>
+                    <h3 id="quickview-title" class="font-display-lg text-[22px] md:text-[24px] text-on-surface leading-tight font-extrabold mb-1"></h3>
+                    <div class="flex items-center gap-1.5 mb-3">
+                        <div class="flex text-amber-500">
+                            <span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+                            <span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+                            <span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+                            <span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+                            <span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+                        </div>
+                        <span class="text-xs text-on-surface-variant/80 font-medium">10,000+ Reviews</span>
+                    </div>
+                    <div class="flex items-baseline gap-2 mb-4">
+                        <span id="quickview-price" class="text-2xl font-black text-primary"></span>
+                        <span id="quickview-mrp" class="text-sm text-on-surface-variant/50 line-through"></span>
+                    </div>
+                    <p id="quickview-desc" class="text-sm text-on-surface-variant leading-relaxed mb-4"></p>
+                    <div class="space-y-2 mb-6">
+                        <div class="flex items-center gap-2 text-xs text-on-surface-variant">
+                            <span class="material-symbols-outlined text-primary text-[16px]">check_circle</span>
+                            <span>Germ-defense Shield Technology</span>
+                        </div>
+                        <div class="flex items-center gap-2 text-xs text-on-surface-variant">
+                            <span class="material-symbols-outlined text-primary text-[16px]">check_circle</span>
+                            <span>Moisturizing Cream Base with pH 5.5</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex gap-3">
+                    <button id="quickview-add-btn" class="flex-1 bg-primary text-white hover:bg-primary-container/95 transition-all py-3 px-4 rounded-full font-label-sm text-[13px] font-bold shadow-md citrus-glow flex items-center justify-center gap-2">
+                        <span class="material-symbols-outlined text-[18px]">add_shopping_cart</span>Add to Basket
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Checkout Modal -->
+    <div id="checkout-modal" class="fixed inset-0 z-[110] flex items-center justify-center hidden px-4" aria-modal="true">
+        <div id="checkout-backdrop" class="absolute inset-0 bg-black/50 backdrop-blur-sm opacity-0 transition-opacity duration-300"></div>
+        <div id="checkout-card" class="relative bg-white/95 backdrop-blur-xl border border-white/50 p-6 md:p-8 rounded-2xl max-w-2xl w-full shadow-2xl transform scale-95 opacity-0 transition-all duration-300 z-10 flex flex-col md:flex-row gap-6 max-h-[90vh] overflow-y-auto hide-scrollbar">
+            <button id="checkout-close-btn" class="absolute top-4 right-4 material-symbols-outlined text-on-surface-variant hover:text-primary cursor-pointer p-1.5 hover:bg-primary/10 rounded-full z-20">close</button>
+            
+            <!-- Left Side: Form Details -->
+            <div class="w-full md:w-1/2 flex flex-col justify-between">
+                <div>
+                    <h3 class="font-display-lg text-[20px] md:text-[22px] text-on-surface leading-tight font-extrabold mb-1">Complete Checkout</h3>
+                    <p class="text-xs text-on-surface-variant/80 mb-5 font-medium">Enter your details to receive your email bill & receipt.</p>
+                    
+                    <form id="checkout-form" class="space-y-3.5 text-left">
+                        <div>
+                            <label for="checkout-name" class="block text-[10px] font-bold text-on-surface uppercase tracking-wider mb-1">Full Name</label>
+                            <input id="checkout-name" type="text" required class="w-full bg-white border border-outline-variant/30 rounded-lg px-3.5 py-2 text-sm focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-colors" placeholder="e.g. Rahul Sharma" />
+                        </div>
+                        <div>
+                            <label for="checkout-email" class="block text-[10px] font-bold text-on-surface uppercase tracking-wider mb-1">Email Address</label>
+                            <input id="checkout-email" type="email" required class="w-full bg-white border border-outline-variant/30 rounded-lg px-3.5 py-2 text-sm focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-colors" placeholder="e.g. rahul@example.com" />
+                        </div>
+                        <div>
+                            <label for="checkout-address" class="block text-[10px] font-bold text-on-surface uppercase tracking-wider mb-1">Shipping Address</label>
+                            <textarea id="checkout-address" required rows="2" class="w-full bg-white border border-outline-variant/30 rounded-lg px-3.5 py-2 text-sm focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-colors resize-none" placeholder="Enter your full home address"></textarea>
+                        </div>
+
+                        <button type="submit" id="checkout-submit-btn" class="w-full bg-primary text-white hover:bg-primary-container/95 transition-all py-3 rounded-full font-label-sm text-[12px] font-bold shadow-md citrus-glow flex items-center justify-center gap-2 mt-4">
+                            <span class="material-symbols-outlined text-[16px]">verified</span>Place Order & Send Bill
+                        </button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Right Side: Order Summary -->
+            <div class="w-full md:w-1/2 flex flex-col justify-between bg-surface-container-low rounded-xl p-5 border border-outline-variant/15 text-left">
+                <div>
+                    <h4 class="font-bold text-[14px] text-on-surface mb-3 flex items-center gap-1.5 border-b border-outline-variant/15 pb-2">
+                        <span class="material-symbols-outlined text-primary text-[18px]">receipt_long</span>Order Details
+                    </h4>
+                    <div id="checkout-summary-items" class="space-y-3 max-h-[200px] overflow-y-auto pr-1 hide-scrollbar">
+                        <!-- Items populated dynamically -->
+                    </div>
+                </div>
+                <div class="border-t border-outline-variant/15 pt-3 mt-4 space-y-2">
+                    <div class="flex justify-between items-center text-xs text-on-surface-variant">
+                        <span>Items Subtotal</span>
+                        <span id="checkout-subtotal" class="font-semibold text-on-surface">₹0</span>
+                    </div>
+                    <div class="flex justify-between items-center text-xs text-on-surface-variant">
+                        <span>Delivery Charges</span>
+                        <span class="font-semibold text-primary">FREE</span>
+                    </div>
+                    <div class="h-[1px] bg-outline-variant/20 my-1"></div>
+                    <div class="flex justify-between items-center text-sm">
+                        <span class="font-bold text-on-surface">Amount Payable</span>
+                        <span id="checkout-total" class="font-extrabold text-primary text-lg">₹0</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Developer & Email Settings Modal -->
+    <div id="settings-modal" class="fixed inset-0 z-[110] flex items-center justify-center hidden px-4" aria-modal="true">
+        <div id="settings-backdrop" class="absolute inset-0 bg-black/50 backdrop-blur-sm opacity-0 transition-opacity duration-300"></div>
+        <div id="settings-card" class="relative bg-white/95 backdrop-blur-xl border border-white/50 p-6 md:p-8 rounded-2xl max-w-2xl w-full shadow-2xl transform scale-95 opacity-0 transition-all duration-300 z-10 flex flex-col md:flex-row gap-6 max-h-[90vh] overflow-y-auto hide-scrollbar">
+            <button id="settings-close-btn" class="absolute top-4 right-4 material-symbols-outlined text-on-surface-variant hover:text-primary cursor-pointer p-1.5 hover:bg-primary/10 rounded-full z-20">close</button>
+            
+            <!-- Left Side: Config Form -->
+            <div class="w-full md:w-1/2 flex flex-col justify-between">
+                <div>
+                    <h3 class="font-display-lg text-[20px] md:text-[22px] text-on-surface leading-tight font-extrabold mb-1">Email Settings</h3>
+                    <p class="text-xs text-on-surface-variant/80 mb-5 font-medium">Configure how customer email receipts and newsletter guides are sent.</p>
+                    
+                    <form id="settings-form" class="space-y-4 text-left">
+                        <div>
+                            <label for="settings-provider" class="block text-[10px] font-bold text-on-surface uppercase tracking-wider mb-1">Email Service Provider</label>
+                            <select id="settings-provider" class="w-full bg-white border border-outline-variant/30 rounded-lg px-3.5 py-2.5 text-sm focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-colors">
+                                <option value="gmail_apps_script">Google Apps Script (Recommended - Free)</option>
+                                <option value="emailjs">EmailJS (Free - 200/mo)</option>
+                                <option value="web3forms">Web3Forms (Default - Forward only)</option>
+                            </select>
+                        </div>
+
+                        <!-- Google Apps Script Fields -->
+                        <div id="provider-fields-apps-script" class="space-y-3">
+                            <div>
+                                <label for="settings-script-url" class="block text-[10px] font-bold text-on-surface uppercase tracking-wider mb-1">Google Apps Script Web App URL</label>
+                                <input id="settings-script-url" type="url" class="w-full bg-white border border-outline-variant/30 rounded-lg px-3.5 py-2 text-sm focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-colors" placeholder="https://script.google.com/macros/s/.../exec" />
+                            </div>
+                        </div>
+
+                        <!-- EmailJS Fields -->
+                        <div id="provider-fields-emailjs" class="space-y-3 hidden">
+                            <div>
+                                <label for="settings-emailjs-service" class="block text-[10px] font-bold text-on-surface uppercase tracking-wider mb-1">Service ID</label>
+                                <input id="settings-emailjs-service" type="text" class="w-full bg-white border border-outline-variant/30 rounded-lg px-3.5 py-2 text-sm focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-colors" placeholder="e.g. service_xxxxxx" />
+                            </div>
+                            <div>
+                                <label for="settings-emailjs-template" class="block text-[10px] font-bold text-on-surface uppercase tracking-wider mb-1">Template ID</label>
+                                <input id="settings-emailjs-template" type="text" class="w-full bg-white border border-outline-variant/30 rounded-lg px-3.5 py-2 text-sm focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-colors" placeholder="e.g. template_xxxxxx" />
+                            </div>
+                            <div>
+                                <label for="settings-emailjs-public-key" class="block text-[10px] font-bold text-on-surface uppercase tracking-wider mb-1">Public Key</label>
+                                <input id="settings-emailjs-public-key" type="text" class="w-full bg-white border border-outline-variant/30 rounded-lg px-3.5 py-2 text-sm focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-colors" placeholder="e.g. user_xxxxxxxxx" />
+                            </div>
+                        </div>
+
+                        <!-- Web3Forms Fields -->
+                        <div id="provider-fields-web3forms" class="space-y-3 hidden">
+                            <div>
+                                <label for="settings-web3forms-key" class="block text-[10px] font-bold text-on-surface uppercase tracking-wider mb-1">Web3Forms Access Key</label>
+                                <input id="settings-web3forms-key" type="text" class="w-full bg-white border border-outline-variant/30 rounded-lg px-3.5 py-2 text-sm focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-colors" placeholder="aaeb4740-6fb6-4665-bbcd-865ca24a1da5" />
+                            </div>
+                        </div>
+
+                        <button type="submit" class="w-full bg-primary text-white hover:bg-primary-container/95 transition-all py-3 rounded-full font-label-sm text-[12px] font-bold shadow-md citrus-glow flex items-center justify-center gap-2 mt-4">
+                            <span class="material-symbols-outlined text-[16px]">save</span>Save Settings
+                        </button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Right Side: Instructions & Copy Script -->
+            <div class="w-full md:w-1/2 flex flex-col justify-between bg-surface-container-low rounded-xl p-5 border border-outline-variant/15 text-left text-xs text-on-surface-variant">
+                <div class="space-y-3">
+                    <h4 class="font-bold text-[14px] text-on-surface mb-3 flex items-center gap-1.5 border-b border-outline-variant/15 pb-2">
+                        <span class="material-symbols-outlined text-primary text-[18px]">info</span>Setup Guide
+                    </h4>
+                    
+                    <!-- Google Script Instructions -->
+                    <div id="instructions-apps-script" class="space-y-2">
+                        <p class="font-semibold text-on-surface">How to setup Google Apps Script (100% Free):</p>
+                        <ol class="list-decimal pl-4 space-y-1.5 leading-relaxed">
+                            <li>Go to <a href="https://script.google.com" target="_blank" class="text-primary font-bold hover:underline">Google Apps Script</a> and create a new project.</li>
+                            <li>Delete any default code and paste the script code below.</li>
+                            <li>Click <strong>Deploy > New Deployment</strong>. Choose <strong>Web app</strong>.</li>
+                            <li>Set <em>Execute as</em> to <strong>Me</strong> and <em>Who has access</em> to <strong>Anyone</strong>.</li>
+                            <li>Click Deploy, authorize permissions, and copy the Web App URL into the settings form.</li>
+                        </ol>
+                        <div class="mt-3">
+                            <div class="flex justify-between items-center bg-surface-container border border-outline-variant/20 px-3 py-1.5 rounded-t-lg">
+                                <span class="font-mono text-[10px] font-bold">script.gs</span>
+                                <button id="copy-script-btn" class="text-primary hover:text-primary-container font-bold flex items-center gap-1 text-[10px] focus:outline-none">
+                                    <span class="material-symbols-outlined text-[12px]">content_copy</span>Copy Code
+                                </button>
+                            </div>
+                            <pre class="bg-white p-3 rounded-b-lg border-x border-b border-outline-variant/20 font-mono text-[9px] overflow-x-auto max-h-[140px] whitespace-pre select-all text-on-surface">
+function doPost(e) {
+  try {
+    var params = JSON.parse(e.postData.contents);
+    var email = params.email;
+    var subject = params.subject;
+    var message = params.message;
+    
+    MailApp.sendEmail({
+      to: email,
+      subject: subject,
+      body: message
+    });
+    
+    return ContentService.createTextOutput(JSON.stringify({ success: true }))
+      .setMimeType(ContentService.MimeType.JSON);
+  } catch (error) {
+    return ContentService.createTextOutput(JSON.stringify({ success: false, error: error.toString() }))
+      .setMimeType(ContentService.MimeType.JSON);
+  }
+}
+                            </pre>
+                        </div>
+                    </div>
+
+                    <!-- EmailJS Instructions -->
+                    <div id="instructions-emailjs" class="space-y-2 hidden">
+                        <p class="font-semibold text-on-surface">How to setup EmailJS:</p>
+                        <ol class="list-decimal pl-4 space-y-1.5 leading-relaxed">
+                            <li>Sign up at <a href="https://www.emailjs.com" target="_blank" class="text-primary font-bold hover:underline">emailjs.com</a>.</li>
+                            <li>Add your email service (e.g., Gmail) to get a <strong>Service ID</strong>.</li>
+                            <li>Create an email template named <strong>Valley Confirmation</strong>.</li>
+                            <li>In the template, set recipient email to <code class="bg-white px-1 py-0.5 rounded border">{{to_email}}</code> and body to <code class="bg-white px-1 py-0.5 rounded border">{{message}}</code>.</li>
+                            <li>Get your <strong>Public Key</strong> from account settings, paste all IDs here, and save!</li>
+                        </ol>
+                    </div>
+
+                    <!-- Web3Forms Instructions -->
+                    <div id="instructions-web3forms" class="space-y-2 hidden">
+                        <p class="font-semibold text-on-surface">Web3Forms Auto-Responder Note:</p>
+                        <p class="leading-relaxed">
+                            By default, Web3Forms forwards customer orders directly to the store owner's inbox. 
+                        </p>
+                        <p class="leading-relaxed mt-1">
+                            To send automatic confirmation emails back to the customer's email ID, Web3Forms requires a <strong>Pro/Paid Subscription</strong> to enable their auto-responder feature.
+                        </p>
+                        <p class="leading-relaxed mt-1 font-semibold text-primary">
+                            For a 100% free solution, choose the Google Apps Script method.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Container -->
+    <main class="pt-16 flex-grow z-10">
+        <!-- Hero Section -->
+        <section id="home" class="relative min-h-[90vh] flex items-center overflow-hidden bg-gradient-to-br from-white via-secondary-container/5 to-primary-container/5 px-gutter py-12 md:py-20">
+            <div class="absolute top-[30%] left-[5%] bg-glow w-[300px] h-[300px] opacity-60"></div>
+            <div class="max-w-container-max w-full mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center z-10">
+                <div class="text-center lg:text-left reveal">
+                    <div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-primary/10 text-primary mb-6 font-label-sm text-xs font-bold border border-primary/20 hover:bg-primary/15 transition-all select-none">
+                        <span class="material-symbols-outlined text-[16px] animate-pulse">verified</span>
+                        99.9% Germ Protection
+                    </div>
+                    <h1 class="font-display-lg text-[36px] sm:text-[44px] md:text-[52px] leading-[1.1] mb-6 text-on-surface tracking-tight">
+                        Pure Hygiene for Your <br class="hidden sm:inline"/><span class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-primary-container font-black">Happy Home</span>
+                    </h1>
+                    <p class="font-body-md text-base md:text-lg text-on-surface-variant mb-8 max-w-lg mx-auto lg:mx-0 leading-relaxed font-medium">
+                        Experience the refreshing power of Valley Lemon. A natural blend crafted for the safety, health, and vitality of modern Indian families.
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+                        <a href="#products" class="bg-primary text-white hover:bg-primary-container/95 px-8 py-4 rounded-full font-label-sm text-[13px] font-bold text-center tracking-wider uppercase transition-all shadow-lg citrus-glow hover:shadow-xl btn-shine-parent flex items-center justify-center gap-2">
+                            <span class="material-symbols-outlined">shopping_bag</span>Shop Now
+                        </a>
+                        <a href="#benefits" class="bg-white/80 backdrop-blur-md text-on-surface-variant hover:text-primary px-8 py-4 rounded-full font-label-sm text-[13px] font-bold text-center tracking-wider uppercase transition-all border border-outline-variant/30 hover:border-primary/45 shadow-sm hover:shadow-md flex items-center justify-center gap-2">
+                            <span class="material-symbols-outlined">info</span>Learn More
+                        </a>
+                    </div>
+                </div>
+                <div class="relative flex items-center justify-center lg:justify-end reveal" style="transition-delay: 200ms;">
+                    <div class="absolute w-[280px] h-[280px] sm:w-[360px] sm:h-[360px] bg-primary-container/15 rounded-full filter blur-2xl z-0 animate-pulse"></div>
+                    <div class="relative animate-float-hero z-10 w-full max-w-[420px] lg:max-w-none flex justify-center">
+                        <img alt="Valley Lemon Hand Wash product bottle surrounded by fresh lemons and bubbles" class="w-[280px] sm:w-[340px] lg:w-[380px] h-auto drop-shadow-[0_25px_35px_rgba(0,110,10,0.18)]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB9_99XmflTISA11_94IPmeCyidiAFhmiamfKbrxD7yePWeIkXbUdVfABPrgvmg5Xa2BKMkLgiL3JUutxHfUGZn9bnCZMIpXc1pNZI1fH6c_R7n_g1qrB51ceW6Hehb49bKRu-9wr1s1DUmjPI3wj15fp0M2fKAbceAGxfEYHmpHEcVCKLmt6wKIy0LuDxhRhx3tUWD5VrGEvWhr7OCF5lesvrIb59C9b1U0HVpvf7Sd81Q5WbA6Cxw6VpN8xjbOSz-lYovu0VYhpIB"/>
+                        <div class="absolute top-[20%] right-[-10px] sm:right-[15%] glass-card p-3 sm:p-4 rounded-xl shadow-lg border border-white/40 max-w-[150px] select-none hover:scale-105 duration-200">
+                            <div class="flex items-center gap-2.5">
+                                <div class="bg-primary-container/20 p-2 rounded-lg text-primary animate-pulse">
+                                    <span class="material-symbols-outlined text-[20px] font-bold">spa</span>
+                                </div>
+                                <div class="text-left">
+                                    <p class="font-bold text-xs text-primary leading-tight">pH 5.5</p>
+                                    <p class="text-[9px] text-on-surface-variant font-bold uppercase tracking-wider">Balanced</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="absolute bottom-[25%] left-[-10px] sm:left-[10%] glass-card p-3 sm:p-4 rounded-xl shadow-lg border border-white/40 max-w-[160px] select-none hover:scale-105 duration-200">
+                            <div class="flex items-center gap-2.5">
+                                <div class="bg-primary/10 p-2 rounded-lg text-primary">
+                                    <span class="material-symbols-outlined text-[20px] font-bold">shield</span>
+                                </div>
+                                <div class="text-left">
+                                    <p class="font-bold text-xs text-on-surface leading-tight">Natural Oils</p>
+                                    <p class="text-[9px] text-on-surface-variant font-bold uppercase tracking-wider">Zero Parabens</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Product Benefits -->
+        <section id="benefits" class="py-20 px-gutter bg-white relative">
+            <div class="max-w-container-max mx-auto text-center mb-16 reveal">
+                <span class="text-primary font-bold text-xs tracking-wider uppercase bg-primary/10 px-3.5 py-1 rounded-full">Key Benefits</span>
+                <h2 class="font-headline-lg text-[28px] sm:text-headline-lg text-on-surface mt-3 mb-4 font-black">Nature's Best for Your Hands</h2>
+                <div class="w-16 h-1 bg-gradient-to-r from-primary to-primary-container mx-auto rounded-full"></div>
+            </div>
+            <div class="max-w-container-max mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Benefit 1 -->
+                <div class="glass-card p-8 rounded-xl text-center flex flex-col items-center citrus-glow group reveal" style="transition-delay: 100ms;">
+                    <div class="w-16 h-16 rounded-2xl bg-gradient-to-br from-primary/10 to-primary/5 text-primary flex items-center justify-center mb-6 group-hover:from-primary group-hover:to-primary-container group-hover:text-white transition-all duration-300 shadow-sm shadow-primary/5 squircle">
+                        <span class="material-symbols-outlined text-[30px] group-hover:scale-110 transition-transform duration-300">clean_hands</span>
+                    </div>
+                    <h3 class="font-headline-lg text-[20px] font-bold mb-3 text-on-surface">Deep Cleansing</h3>
+                    <p class="font-body-md text-sm text-on-surface-variant leading-relaxed">
+                        Thoroughly removes everyday dirt, grease, and grime while remaining exceptionally gentle on your skin's moisture barrier.
+                    </p>
+                </div>
+                <!-- Benefit 2 -->
+                <div class="glass-card p-8 rounded-xl text-center flex flex-col items-center citrus-glow group reveal" style="transition-delay: 200ms;">
+                    <div class="w-16 h-16 rounded-2xl bg-gradient-to-br from-primary/10 to-primary/5 text-primary flex items-center justify-center mb-6 group-hover:from-primary group-hover:to-primary-container group-hover:text-white transition-all duration-300 shadow-sm shadow-primary/5 squircle">
+                        <span class="material-symbols-outlined text-[30px] group-hover:rotate-12 transition-transform duration-300">health_and_safety</span>
+                    </div>
+                    <h3 class="font-headline-lg text-[20px] font-bold mb-3 text-on-surface">Protects & Refreshes</h3>
+                    <p class="font-body-md text-sm text-on-surface-variant leading-relaxed">
+                        Clinically proven strong germ protection paired with an instant refreshing feel that keeps your hands active and vitalized.
+                    </p>
+                </div>
+                <!-- Benefit 3 -->
+                <div class="glass-card p-8 rounded-xl text-center flex flex-col items-center citrus-glow group reveal" style="transition-delay: 300ms;">
+                    <div class="w-16 h-16 rounded-2xl bg-gradient-to-br from-primary/10 to-primary/5 text-primary flex items-center justify-center mb-6 group-hover:from-primary group-hover:to-primary-container group-hover:text-white transition-all duration-300 shadow-sm shadow-primary/5 squircle">
+                        <span class="material-symbols-outlined text-[30px] group-hover:scale-110 transition-transform duration-300">air</span>
+                    </div>
+                    <h3 class="font-headline-lg text-[20px] font-bold mb-3 text-on-surface">Fresh Lemon Fragrance</h3>
+                    <p class="font-body-md text-sm text-on-surface-variant leading-relaxed">
+                        Infused with real hand-squeezed lemon peel extracts for a zesty, clean aroma that turns every wash into a sensory citrus treat.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Choose Us -->
+        <section id="why-choose-us" class="py-20 px-gutter bg-gradient-to-b from-white to-secondary-container/10 relative overflow-hidden">
+            <div class="absolute top-[20%] right-[-50px] bg-glow w-[300px] h-[300px] opacity-40"></div>
+            <div class="max-w-container-max mx-auto flex flex-col lg:flex-row items-center gap-16 relative z-10">
+                <div class="lg:w-1/2 w-full flex justify-center reveal">
+                    <div class="relative w-full max-w-[500px]">
+                        <div class="absolute inset-4 bg-primary-container/20 rounded-[32px] transform rotate-3 -z-10 scale-105 filter blur-[2px]"></div>
+                        <div class="w-full h-[320px] sm:h-[420px] rounded-xl overflow-hidden shadow-2xl border-4 border-white/60 bg-cover bg-center citrus-glow" 
+                             data-alt="A high-end, bright bathroom setting with a Valley Lemon Hand Wash bottle sitting on a white marble vanity. Warm sunlight streams through a window, highlighting the clear green liquid and fresh lemon slices nearby." 
+                             style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuANBAyREL4e8xSYEzvO0ETTvCt1Fn4oA5oJ18HBfiEyhm5zo1PxVP5chslLtMCUDFnE8Fehv7iJ1U2DnC9jsqguf0o6Ar3kC6C9PDVgJ3EbAAuEK5dZ24T4jPJMPBD0HVJh7D43p4NUlwGR6PBuzWPAX755ykbd-FUluFCjIzJnhqYQCw5KR-cFmD734Wl_uMK9IaC085Prb3sdLustE351esQUFfEVGwoeJQB39IUkEfwI0CZ0D5k4PV2q8aeXdFwh6vFpjDItKf_x')">
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:w-1/2 w-full text-left reveal" style="transition-delay: 200ms;">
+                    <span class="text-primary font-bold text-xs tracking-wider uppercase bg-primary/10 px-3.5 py-1 rounded-full">Premium Standards</span>
+                    <h2 class="font-headline-lg text-[28px] sm:text-headline-lg text-on-surface mt-3 mb-6 font-black leading-tight">
+                        Why 10,000+ Indian Families Trust Valley
+                    </h2>
+                    <div class="space-y-6">
+                        <div class="flex items-start gap-4 p-3 hover:bg-white/60 rounded-xl transition-all border border-transparent hover:border-outline-variant/10">
+                            <span class="material-symbols-outlined text-primary bg-primary-container/10 p-2.5 rounded-lg flex-shrink-0">family_restroom</span>
+                            <div>
+                                <h4 class="font-bold text-[16px] text-on-surface mb-1">Trusted by 10k+ Families</h4>
+                                <p class="text-on-surface-variant text-sm leading-relaxed">
+                                    A reliable household name across the country, known for strict hygiene standards and dermatologically safe products.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-4 p-3 hover:bg-white/60 rounded-xl transition-all border border-transparent hover:border-outline-variant/10">
+                            <span class="material-symbols-outlined text-primary bg-primary-container/10 p-2.5 rounded-lg flex-shrink-0">science</span>
+                            <div>
+                                <h4 class="font-bold text-[16px] text-on-surface mb-1">Perfectly pH Balanced</h4>
+                                <p class="text-on-surface-variant text-sm leading-relaxed">
+                                    Scientifically balanced at pH 5.5 to match your skin's natural barrier, protecting your skin from excessive dryness.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-4 p-3 hover:bg-white/60 rounded-xl transition-all border border-transparent hover:border-outline-variant/10">
+                            <span class="material-symbols-outlined text-primary bg-primary-container/10 p-2.5 rounded-lg flex-shrink-0">eco</span>
+                            <div>
+                                <h4 class="font-bold text-[16px] text-on-surface mb-1">Natural Lemon Extracts</h4>
+                                <p class="text-on-surface-variant text-sm leading-relaxed">
+                                    Enriched with cold-pressed natural citrus oils for superior hand cleansing and a lasting refresh without dry residue.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <button id="standards-trigger-btn" class="mt-8 bg-primary text-white hover:bg-primary-container/95 px-8 py-4 rounded-full font-label-sm text-[13px] font-bold tracking-wider uppercase transition-all shadow-md citrus-glow flex items-center justify-center gap-2">
+                        <span class="material-symbols-outlined">verified_user</span>See Our Standards
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Customer Reviews -->
+        <section id="reviews" class="py-20 px-gutter bg-white relative overflow-hidden">
+            <div class="max-w-container-max mx-auto text-center mb-16 reveal">
+                <span class="text-primary font-bold text-xs tracking-wider uppercase bg-primary/10 px-3.5 py-1 rounded-full">Testimonials</span>
+                <h2 class="font-headline-lg text-[28px] sm:text-headline-lg text-on-surface mt-3 mb-4 font-black">Happy Moms, Healthy Families</h2>
+                <div class="w-16 h-1 bg-gradient-to-r from-primary to-primary-container mx-auto rounded-full"></div>
+            </div>
+            <div class="max-w-container-max mx-auto relative px-4 reveal">
+                <button id="prev-review-btn" class="absolute left-[-10px] md:left-[-20px] top-1/2 -translate-y-1/2 z-20 w-11 h-11 rounded-full bg-white/90 backdrop-blur shadow-md hover:bg-primary hover:text-white transition-all flex items-center justify-center border border-outline-variant/20 focus:outline-none cursor-pointer" aria-label="Previous review">
+                    <span class="material-symbols-outlined">chevron_left</span>
+                </button>
+                <button id="next-review-btn" class="absolute right-[-10px] md:right-[-20px] top-1/2 -translate-y-1/2 z-20 w-11 h-11 rounded-full bg-white/90 backdrop-blur shadow-md hover:bg-primary hover:text-white transition-all flex items-center justify-center border border-outline-variant/20 focus:outline-none cursor-pointer" aria-label="Next review">
+                    <span class="material-symbols-outlined">chevron_right</span>
+                </button>
+                <div id="reviews-container" class="flex overflow-x-auto gap-6 pb-6 px-2 snap-x snap-mandatory scroll-smooth hide-scrollbar">
+                    <!-- Testimonial 1 -->
+                    <div class="min-w-[280px] sm:min-w-[340px] md:min-w-[400px] flex-shrink-0 snap-center glass-card p-6 sm:p-8 rounded-xl shadow-sm border border-outline-variant/10 relative">
+                        <span class="material-symbols-outlined text-[60px] text-primary/10 absolute top-4 right-6 font-bold pointer-events-none">format_quote</span>
+                        <div class="flex gap-1 text-amber-500 mb-4 z-10 relative">
+                            <span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+                            <span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+                            <span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+                            <span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+                            <span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+                        </div>
+                        <p class="font-body-md italic text-sm text-on-surface-variant leading-relaxed mb-6 clamp-2 hover:line-clamp-none duration-300 cursor-pointer">
+                            "The fragrance is so refreshing! My kids actually love washing their hands now. It doesn't dry out my skin even with frequent use during chores."
+                        </p>
+                        <div class="flex items-center gap-4 border-t border-outline-variant/10 pt-4">
+                            <div class="w-12 h-12 rounded-full bg-primary/10 text-primary font-bold flex items-center justify-center text-sm border-2 border-white shadow-sm flex-shrink-0">AS</div>
+                            <div class="text-left">
+                                <p class="font-bold text-sm text-on-surface">Anjali Sharma</p>
+                                <p class="text-[11px] text-on-surface-variant font-medium">Mumbai, Mother of two</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Testimonial 2 -->
+                    <div class="min-w-[280px] sm:min-w-[340px] md:min-w-[400px] flex-shrink-0 snap-center glass-card p-6 sm:p-8 rounded-xl shadow-sm border border-outline-variant/10 relative">
+                        <span class="material-symbols-outlined text-[60px] text-primary/10 absolute top-4 right-6 font-bold pointer-events-none">format_quote</span>
+                        <div class="flex gap-1 text-amber-500 mb-4 z-10 relative">
+                            <span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+                            <span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+                            <span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+                            <span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+                            <span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+                        </div>
+                        <p class="font-body-md italic text-sm text-on-surface-variant leading-relaxed mb-6 clamp-2 hover:line-clamp-none duration-300 cursor-pointer">
+                            "Finally a hand wash that feels premium but is affordable for everyday use. The lemon scent is authentic, not chemical-like."
+                        </p>
+                        <div class="flex items-center gap-4 border-t border-outline-variant/10 pt-4">
+                            <div class="w-12 h-12 rounded-full bg-secondary-container text-on-secondary-container font-bold flex items-center justify-center text-sm border-2 border-white shadow-sm flex-shrink-0">PP</div>
+                            <div class="text-left">
+                                <p class="font-bold text-sm text-on-surface">Priya Patel</p>
+                                <p class="text-[11px] text-on-surface-variant font-medium">Ahmedabad, Homemaker</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Testimonial 3 -->
+                    <div class="min-w-[280px] sm:min-w-[340px] md:min-w-[400px] flex-shrink-0 snap-center glass-card p-6 sm:p-8 rounded-xl shadow-sm border border-outline-variant/10 relative">
+                        <span class="material-symbols-outlined text-[60px] text-primary/10 absolute top-4 right-6 font-bold pointer-events-none">format_quote</span>
+                        <div class="flex gap-1 text-amber-500 mb-4 z-10 relative">
+                            <span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+                            <span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+                            <span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+                            <span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+                            <span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+                        </div>
+                        <p class="font-body-md italic text-sm text-on-surface-variant leading-relaxed mb-6 clamp-2 hover:line-clamp-none duration-300 cursor-pointer">
+                            "Highly recommend Valley. It cleans deep but leaves hands soft. Perfect for my elderly parents too as it's very gentle."
+                        </p>
+                        <div class="flex items-center gap-4 border-t border-outline-variant/10 pt-4">
+                            <div class="w-12 h-12 rounded-full bg-primary/10 text-primary font-bold flex items-center justify-center text-sm border-2 border-white shadow-sm flex-shrink-0">MI</div>
+                            <div class="text-left">
+                                <p class="font-bold text-sm text-on-surface">Meera Iyer</p>
+                                <p class="text-[11px] text-on-surface-variant font-medium">Bangalore, IT Professional</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Product Gallery (Bento Layout) -->
+        <section id="products" class="py-20 px-gutter bg-gradient-to-b from-white to-secondary-container/5 relative">
+            <div class="max-w-container-max mx-auto text-center mb-16 reveal">
+                <span class="text-primary font-bold text-xs tracking-wider uppercase bg-primary/10 px-3.5 py-1 rounded-full">Product Range</span>
+                <h2 class="font-headline-lg text-[28px] sm:text-headline-lg text-on-surface mt-3 mb-4 font-black">Valley Lemon Collection</h2>
+                <div class="w-16 h-1 bg-gradient-to-r from-primary to-primary-container mx-auto rounded-full"></div>
+            </div>
+            <div class="max-w-container-max mx-auto">
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 grid-rows-none md:grid-rows-2 gap-5 h-auto md:h-[600px] reveal">
+                    <!-- Bento item 1 (Large) -->
+                    <div class="md:col-span-2 md:row-span-2 rounded-xl overflow-hidden border border-outline-variant/15 shadow-md relative group flex flex-col justify-end min-h-[300px]">
+                        <img class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 z-0" 
+                             data-alt="A modern, white kitchen island with Valley Lemon." 
+                             src="https://lh3.googleusercontent.com/aida-public/AB6AXuCHXVjciG8ch1ftO6ga7c-5tj7hRQmX7-NCWPpx9b67p2TBfiE1iOwgZciLE2THKiPdV7t6R1_Cyv1l4zrGYV7n5tdwXEh21QJc8IcFVCbD_vPaXXc0OyGAruk60qX1pvGlWUDcMtmN7Tv8aYBVG-XiLfsipCv6tuoKXapu89rOfgHu2TOxR_epr7zMiDGT8g1yWDZLNqYKFeAmGe66iMVGbzVDQhQJmxw_74VVZPv-5_OGT2puxrNmkj2KRy2TZUAxydKzEtzDQDTM"/>
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/75 via-black/10 to-transparent z-10 opacity-80 group-hover:opacity-90 transition-opacity"></div>
+                        <div class="p-6 sm:p-8 z-20 text-left text-white">
+                            <span class="bg-primary-container text-on-primary-container text-[10px] font-extrabold uppercase tracking-widest px-2.5 py-0.5 rounded-full mb-3 inline-block">Best Seller</span>
+                            <h3 class="font-display-lg text-[22px] sm:text-[26px] font-bold mb-2 tracking-tight">Valley Lemon Classic</h3>
+                            <p class="text-xs text-white/80 max-w-sm mb-4 leading-relaxed font-medium">Standard 500ml family size dispenser. Real lemon extracts combined with premium moisturizing germ shield.</p>
+                            <div class="flex items-center gap-4">
+                                <span class="text-xl font-bold">₹180</span>
+                                <button class="quickview-trigger bg-white text-primary hover:bg-primary-container hover:text-on-primary-container px-5 py-2.5 rounded-full text-xs font-bold transition-all shadow flex items-center gap-1.5"
+                                        data-id="valley-lemon-classic"
+                                        data-title="Valley Lemon Classic 500ml"
+                                        data-price="₹180"
+                                        data-mrp="₹220"
+                                        data-tag="Best Seller"
+                                        data-desc="Our signature formula featuring fresh cold-pressed Valley Lemon oil and moisture lock lotion. Provides 99.9% germ defense while maintaining absolute soft, hydrated skin."
+                                        data-img="https://lh3.googleusercontent.com/aida-public/AB6AXuB9_99XmflTISA11_94IPmeCyidiAFhmiamfKbrxD7yePWeIkXbUdVfABPrgvmg5Xa2BKMkLgiL3JUutxHfUGZn9bnCZMIpXc1pNZI1fH6c_R7n_g1qrB51ceW6Hehb49bKRu-9wr1s1DUmjPI3wj15fp0M2fKAbceAGxfEYHmpHEcVCKLmt6wKIy0LuDxhRhx3tUWD5VrGEvWhr7OCF5lesvrIb59C9b1U0HVpvf7Sd81Q5WbA6Cxw6VpN8xjbOSz-lYovu0VYhpIB">
+                                    <span class="material-symbols-outlined text-[16px]">visibility</span>Quick View
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Bento item 2 (Wide) -->
+                    <div class="md:col-span-2 md:row-span-1 rounded-xl overflow-hidden border border-outline-variant/15 shadow-md relative group flex flex-col justify-end min-h-[190px]">
+                        <img class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 z-0" 
+                             data-alt="A macro close-up of a Valley Lemon Hand Wash bottle pump being pressed." 
+                             src="https://lh3.googleusercontent.com/aida-public/AB6AXuBxSzW9_Oy69L1_15nJoQMhVMp3hPSjffUfZSiNjR2X46iI-sAQL5dVD5iz2b45hdHXqyfEZZWJ5pIaxDmIf2FK5XDjDy7fp9tYbxdIWD7LLNyZPeEQl6wUS1GhWubIuBzzIZaP-aJlVVVBCJ-AqMGO9hpPWCrkaK0k4Se0KZeEkfEoTyv7hah84z93UTyygcmfGanC54pqTQ898B-Tl4yk7ROc75SIvoVXgJPpliVhzxrNmEnasku49R_ENUKPfNdrC5wlrtazHv8_"/>
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/10 to-transparent z-10 opacity-85"></div>
+                        <div class="p-6 z-20 text-left text-white">
+                            <span class="bg-primary/20 text-primary-fixed text-[10px] font-extrabold uppercase tracking-widest px-2.5 py-0.5 rounded-full mb-2 inline-block">Smart Tech</span>
+                            <h3 class="font-display-lg text-[18px] font-bold mb-1 tracking-tight">Precision Smart Pump</h3>
+                            <p class="text-[11px] text-white/80 max-w-xs mb-3 font-medium">Advanced anti-clog pump head. Smooth green gel with fresh herbal notes.</p>
+                            <div class="flex items-center gap-3">
+                                <span class="text-base font-bold">₹240</span>
+                                <button class="quickview-trigger bg-white text-primary hover:bg-primary-container hover:text-on-primary-container px-4 py-2 rounded-full text-[11px] font-bold transition-all shadow flex items-center gap-1.5"
+                                        data-id="precision-smart-pump"
+                                        data-title="Premium Smart Pump Edition"
+                                        data-price="₹240"
+                                        data-mrp="₹280"
+                                        data-tag="Smart Tech"
+                                        data-desc="Crafted with a clean vertical pump head that dispenses exactly 1.2ml of rich green sanitizer wash, preventing waste and ensuring clinical safety for kitchens and bathrooms."
+                                        data-img="https://lh3.googleusercontent.com/aida-public/AB6AXuBxSzW9_Oy69L1_15nJoQMhVMp3hPSjffUfZSiNjR2X46iI-sAQL5dVD5iz2b45hdHXqyfEZZWJ5pIaxDmIf2FK5XDjDy7fp9tYbxdIWD7LLNyZPeEQl6wUS1GhWubIuBzzIZaP-aJlVVVBCJ-AqMGO9hpPWCrkaK0k4Se0KZeEkfEoTyv7hah84z93UTyygcmfGanC54pqTQ898B-Tl4yk7ROc75SIvoVXgJPpliVhzxrNmEnasku49R_ENUKPfNdrC5wlrtazHv8_">
+                                    <span class="material-symbols-outlined text-[14px]">visibility</span>Quick View
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Bento item 3 (Square Small) -->
+                    <div class="md:col-span-1 md:row-span-1 rounded-xl overflow-hidden border border-outline-variant/15 shadow-md relative group flex flex-col justify-end min-h-[190px]">
+                        <img class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 z-0" 
+                             data-alt="Top-down flat lay lemon halves and flowers." 
+                             src="https://lh3.googleusercontent.com/aida-public/AB6AXuDhp84wRw0m1ii-2wIRXPdR_ctjgLEPjyf2pnqrHFb0_BdyllboGMlYBamphp-_cdOppSsV10rochMhqKLDXiC-yKrgm6AgcTa97-2rJJkfh84xNBZIlDRXpepODM7nOYOWHA60zQyNuwDb8UEs7a-5xwJDDlvxC1sppKlY6F4FnCZpsS631N07ODZesb9IyYC2T5BN9V0zLtLukNOfj-BTT_oEyW9dS6ZJ77ESS4ArCVHBn1EJ4YLCjrLjTO2-rrMX3hQVj7eIfQV4"/>
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/85 via-black/10 to-transparent z-10 opacity-85"></div>
+                        <div class="p-4 z-20 text-left text-white">
+                            <span class="bg-primary/20 text-primary-fixed text-[9px] font-extrabold uppercase tracking-widest px-2 py-0.5 rounded-full mb-1.5 inline-block">Organic</span>
+                            <h3 class="font-display-lg text-[16px] font-bold mb-1 tracking-tight leading-snug">Nature's Scent Bundle</h3>
+                            <div class="flex items-center justify-between mt-2">
+                                <span class="text-sm font-bold">₹499</span>
+                                <button class="quickview-trigger bg-white text-primary hover:bg-primary-container hover:text-on-primary-container px-3 py-1.5 rounded-full text-[10px] font-bold transition-all shadow flex items-center gap-1"
+                                        data-id="natures-scent-bundle"
+                                        data-title="Nature's Scent Bundle (Pack of 3)"
+                                        data-price="₹499"
+                                        data-mrp="₹600"
+                                        data-tag="Organic Bundle"
+                                        data-desc="Includes 3 distinct bottles infused with Natural Lemon oils, Jasmine extract, and Tea Tree extracts. A perfect botanical shield for healthy, fragrant hands."
+                                        data-img="https://lh3.googleusercontent.com/aida-public/AB6AXuDhp84wRw0m1ii-2wIRXPdR_ctjgLEPjyf2pnqrHFb0_BdyllboGMlYBamphp-_cdOppSsV10rochMhqKLDXiC-yKrgm6AgcTa97-2rJJkfh84xNBZIlDRXpepODM7nOYOWHA60zQyNuwDb8UEs7a-5xwJDDlvxC1sppKlY6F4FnCZpsS631N07ODZesb9IyYC2T5BN9V0zLtLukNOfj-BTT_oEyW9dS6ZJ77ESS4ArCVHBn1EJ4YLCjrLjTO2-rrMX3hQVj7eIfQV4">
+                                    <span class="material-symbols-outlined text-[12px]">visibility</span>View
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Bento item 4 (Square Small) -->
+                    <div class="md:col-span-1 md:row-span-1 rounded-xl overflow-hidden border border-outline-variant/15 shadow-md relative group flex flex-col justify-end min-h-[190px]">
+                        <img class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 z-0" 
+                             data-alt="Happy child washing hands." 
+                             src="https://lh3.googleusercontent.com/aida-public/AB6AXuBzndNnKkWKN4i7xLfsjIQQaJnFg00J7m4omRH1wAnMU_CEGikhHxsJ8usVbub9V2AILf2oLDJNabhhNsx2dZAQuwrc0UUr7UnE3VC2I3LGipyrOcaFI4vBg7XLCiuxdiwoZSxBO2hflpY7sAohFKUNTI8BHgJ8GfyQtzCUAMDNkoc1JQ1zMWKNMOlAp-7jEZKI-So2m1L1BobKBFgfV2x-5d9I1qdFOwMwdisuXoHJljA7XclYFJD9BU1LUbPESC3wjR1FLacL09N9"/>
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/85 via-black/10 to-transparent z-10 opacity-85"></div>
+                        <div class="p-4 z-20 text-left text-white">
+                            <span class="bg-primary/20 text-primary-fixed text-[9px] font-extrabold uppercase tracking-widest px-2 py-0.5 rounded-full mb-1.5 inline-block">Eco Refill</span>
+                            <h3 class="font-display-lg text-[16px] font-bold mb-1 tracking-tight leading-snug">Family Refill Pack</h3>
+                            <div class="flex items-center justify-between mt-2">
+                                <span class="text-sm font-bold">₹320</span>
+                                <button class="quickview-trigger bg-white text-primary hover:bg-primary-container hover:text-on-primary-container px-3 py-1.5 rounded-full text-[10px] font-bold transition-all shadow flex items-center gap-1"
+                                        data-id="family-refill-pack"
+                                        data-title="Family Refill Pack (1L Refill)"
+                                        data-price="₹320"
+                                        data-mrp="₹380"
+                                        data-tag="Eco Refill"
+                                        data-desc="Our eco-friendly 1000ml pouch that reduces plastic packaging waste by 75%. Same skin-balanced recipe to keep your dispensers topped up."
+                                        data-img="https://lh3.googleusercontent.com/aida-public/AB6AXuBzndNnKkWKN4i7xLfsjIQQaJnFg00J7m4omRH1wAnMU_CEGikhHxsJ8usVbub9V2AILf2oLDJNabhhNsx2dZAQuwrc0UUr7UnE3VC2I3LGipyrOcaFI4vBg7XLCiuxdiwoZSxBO2hflpY7sAohFKUNTI8BHgJ8GfyQtzCUAMDNkoc1JQ1zMWKNMOlAp-7jEZKI-So2m1L1BobKBFgfV2x-5d9I1qdFOwMwdisuXoHJljA7XclYFJD9BU1LUbPESC3wjR1FLacL09N9">
+                                    <span class="material-symbols-outlined text-[12px]">visibility</span>View
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section id="faq" class="py-20 px-gutter bg-white relative">
+            <div class="max-w-2xl mx-auto">
+                <div class="text-center mb-12 reveal">
+                    <span class="text-primary font-bold text-xs tracking-wider uppercase bg-primary/10 px-3.5 py-1 rounded-full">Help & Info</span>
+                    <h2 class="font-headline-lg text-[28px] sm:text-headline-lg text-on-surface mt-3 mb-4 font-black">Common Questions</h2>
+                    <div class="w-16 h-1 bg-gradient-to-r from-primary to-primary-container mx-auto rounded-full"></div>
+                </div>
+                <div class="space-y-4 reveal">
+                    <details class="faq-item group bg-surface-container-low border border-outline-variant/10 rounded-xl p-5 hover:bg-white transition-all duration-300">
+                        <summary class="flex justify-between items-center cursor-pointer font-bold text-on-surface select-none list-none outline-none">
+                            <span class="text-sm sm:text-base pr-4">Is it safe for sensitive skin?</span>
+                            <span class="material-symbols-outlined text-primary group-open:rotate-180 transition-transform duration-300">expand_more</span>
+                        </summary>
+                        <div class="faq-content overflow-hidden max-h-0 opacity-0 transition-all duration-500">
+                            <p class="mt-4 text-sm text-on-surface-variant leading-relaxed">
+                                Yes, Valley Lemon Hand Wash is scientifically pH-balanced at 5.5 and clinically tested to be gentle on all skin profiles, including delicate child skin and dry skin conditions.
+                            </p>
+                        </div>
+                    </details>
+                    <details class="faq-item group bg-surface-container-low border border-outline-variant/10 rounded-xl p-5 hover:bg-white transition-all duration-300">
+                        <summary class="flex justify-between items-center cursor-pointer font-bold text-on-surface select-none list-none outline-none">
+                            <span class="text-sm sm:text-base pr-4">Does it contain parabens?</span>
+                            <span class="material-symbols-outlined text-primary group-open:rotate-180 transition-transform duration-300">expand_more</span>
+                        </summary>
+                        <div class="faq-content overflow-hidden max-h-0 opacity-0 transition-all duration-500">
+                            <p class="mt-4 text-sm text-on-surface-variant leading-relaxed">
+                                Absolutely not. Our hygiene formula is proud to be 100% free from parabens, synthetic sulfates (SLS), mineral oils, phthalates, and harsh chemical colors.
+                            </p>
+                        </div>
+                    </details>
+                    <details class="faq-item group bg-surface-container-low border border-outline-variant/10 rounded-xl p-5 hover:bg-white transition-all duration-300">
+                        <summary class="flex justify-between items-center cursor-pointer font-bold text-on-surface select-none list-none outline-none">
+                            <span class="text-sm sm:text-base pr-4">How long does the fragrance last?</span>
+                            <span class="material-symbols-outlined text-primary group-open:rotate-180 transition-transform duration-300">expand_more</span>
+                        </summary>
+                        <div class="faq-content overflow-hidden max-h-0 opacity-0 transition-all duration-500">
+                            <p class="mt-4 text-sm text-on-surface-variant leading-relaxed">
+                                The natural citrus oils provide a sensory revitalizing lift during wash. They leave a subtle, fresh, and clean lemon blossom aroma on your hands for up to 30 minutes after washing.
+                            </p>
+                        </div>
+                    </details>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="w-full bg-surface-container-highest border-t border-outline-variant/20 relative z-10">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-10 px-gutter py-16 max-w-container-max mx-auto">
+            <div class="space-y-4 text-left">
+                <div class="flex items-center gap-2">
+                    <span class="font-display-lg text-primary tracking-tight text-[28px] font-black uppercase">Valley</span>
+                </div>
+                <p class="font-body-md text-sm text-on-surface-variant max-w-xs leading-relaxed font-medium">
+                    Pure Hygiene for Every Indian Home. Bringing nature's clinical freshness to your family's daily wellness routine.
+                </p>
+                <div class="flex gap-4 pt-2">
+                    <a href="#" class="w-9 h-9 rounded-full bg-white hover:bg-primary hover:text-white transition-all flex items-center justify-center text-primary border border-outline-variant/20 shadow-sm" aria-label="Instagram">
+                        <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                    </a>
+                    <a href="#" class="w-9 h-9 rounded-full bg-white hover:bg-primary hover:text-white transition-all flex items-center justify-center text-primary border border-outline-variant/20 shadow-sm" aria-label="Facebook">
+                        <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"/></svg>
+                    </a>
+                    <a href="#" class="w-9 h-9 rounded-full bg-white hover:bg-primary hover:text-white transition-all flex items-center justify-center text-primary border border-outline-variant/20 shadow-sm" aria-label="YouTube">
+                        <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M23.498 6.163c-.272-1.023-1.078-1.83-2.101-2.102-1.854-.5-9.397-.5-9.397-.5s-7.543 0-9.397.5c-1.023.272-1.829 1.079-2.101 2.102-.5 1.854-.5 5.738-.5 5.738s0 3.884.5 5.738c.272 1.022 1.078 1.829 2.101 2.101 1.854.5 9.397.5 9.397.5s7.543 0 9.397-.5c1.023-.272 1.829-1.079 2.101-2.101.5-1.854.5-5.738.5-5.738s0-3.884-.5-5.738zm-14.498 9.407v-7.14l6.19 3.57-6.19 3.57z"/></svg>
+                    </a>
+                </div>
+            </div>
+            <div class="space-y-2 text-left">
+                <h5 class="font-bold text-base mb-4 text-on-surface">Quick Links</h5>
+                <ul class="space-y-2.5">
+                    <li><a class="text-on-surface-variant hover:text-primary transition-colors text-sm font-semibold" href="#products">Shop Now</a></li>
+                    <li><a class="text-on-surface-variant hover:text-primary transition-colors text-sm font-semibold" href="#why-choose-us">Our Story</a></li>
+                    <li><a id="footer-standards-link" class="text-on-surface-variant hover:text-primary transition-colors text-sm font-semibold cursor-pointer" href="#">Safety Standards</a></li>
+                    <li><a class="text-on-surface-variant hover:text-primary transition-colors text-sm font-semibold" href="#faq">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="space-y-4 text-left">
+                <h5 class="font-bold text-base mb-4 text-on-surface">Stay Refreshed</h5>
+                <p class="text-on-surface-variant text-sm leading-relaxed font-medium">Subscribe for premium family hygiene tips, citrus updates, and exclusive launches.</p>
+                <form id="subscribe-form" class="flex flex-col sm:flex-row gap-2 mt-2">
+                    <input id="subscribe-email" class="bg-white border-b-2 border-outline-variant/30 border-t-0 border-l-0 border-r-0 focus:border-primary focus:ring-0 px-4 py-3 text-sm rounded-t-lg w-full outline-none transition-colors" placeholder="Your Email" type="email" required/>
+                    <button class="bg-primary text-white hover:bg-primary-container/95 transition-all py-3 px-6 rounded-full font-label-sm text-[13px] font-bold shadow-md citrus-glow hover:shadow-lg flex items-center justify-center gap-1">Join</button>
+                </form>
+            </div>
+        </div>
+        <div class="border-t border-outline-variant/10 py-6 text-center">
+            <p class="font-body-md text-xs text-on-surface-variant/60 font-semibold">© 2024 Valley Lemon Hand Wash. Pure Hygiene for Every Indian Home. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- BottomNavBar (Mobile Only) -->
+    <nav class="fixed bottom-0 left-0 w-full z-[90] rounded-t-2xl md:hidden bg-white/90 backdrop-blur-xl border-t border-outline-variant/20 shadow-[0_-5px_20px_rgba(0,110,10,0.06)]">
+        <div class="flex justify-around items-center h-16 w-full px-4 pb-safe select-none">
+            <a href="#home" class="mobile-tab flex flex-col items-center justify-center text-primary font-bold active:scale-95 duration-150">
+                <span class="material-symbols-outlined text-[24px]">home</span>
+                <span class="font-label-sm text-[10px] tracking-wider font-bold">Home</span>
+            </a>
+            <a href="#products" class="mobile-tab flex flex-col items-center justify-center text-on-surface-variant hover:text-primary active:scale-95 duration-150">
+                <span class="material-symbols-outlined text-[24px]">clean_hands</span>
+                <span class="font-label-sm text-[10px] tracking-wider font-bold">Products</span>
+            </a>
+            <a href="#reviews" class="mobile-tab flex flex-col items-center justify-center text-on-surface-variant hover:text-primary active:scale-95 duration-150">
+                <span class="material-symbols-outlined text-[24px]">rate_review</span>
+                <span class="font-label-sm text-[10px] tracking-wider font-bold">Reviews</span>
+            </a>
+            <button id="mobile-cart-btn" class="mobile-tab relative flex flex-col items-center justify-center text-on-surface-variant hover:text-primary active:scale-95 duration-150 focus:outline-none">
+                <span class="material-symbols-outlined text-[24px]">shopping_bag</span>
+                <span class="font-label-sm text-[10px] tracking-wider font-bold">Cart</span>
+                <span id="mobile-cart-badge" class="absolute top-0 right-1 bg-primary-container text-on-primary-container text-[9px] font-bold w-4 h-4 rounded-full flex items-center justify-center border border-white scale-0 transition-all duration-300">0</span>
+            </button>
+        </div>
+    </nav>
+
+    <button id="back-to-top" class="fixed bottom-20 md:bottom-8 right-6 z-[70] w-12 h-12 rounded-full bg-white/95 backdrop-blur border border-outline-variant/20 shadow-lg text-primary hover:bg-primary hover:text-white flex items-center justify-center cursor-pointer transition-all duration-300 translate-y-20 opacity-0 focus:outline-none" aria-label="Back to top">
+        <span class="material-symbols-outlined text-[24px]">arrow_upward</span>
+    </button>
+
+    <div id="toast-container" class="fixed top-20 right-6 z-[120] flex flex-col gap-3 pointer-events-none max-w-sm w-full"></div>
+
+    <script>
+        const WEB3FORMS_KEY = "aaeb4740-6fb6-4665-bbcd-865ca24a1da5";
+        let cart = [
+            {
+                id: "valley-lemon-classic",
+                name: "Valley Lemon Classic 500ml",
+                price: 180,
+                qty: 1,
+                img: "https://lh3.googleusercontent.com/aida-public/AB6AXuB9_99XmflTISA11_94IPmeCyidiAFhmiamfKbrxD7yePWeIkXbUdVfABPrgvmg5Xa2BKMkLgiL3JUutxHfUGZn9bnCZMIpXc1pNZI1fH6c_R7n_g1qrB51ceW6Hehb49bKRu-9wr1s1DUmjPI3wj15fp0M2fKAbceAGxfEYHmpHEcVCKLmt6wKIy0LuDxhRhx3tUWD5VrGEvWhr7OCF5lesvrIb59C9b1U0HVpvf7Sd81Q5WbA6Cxw6VpN8xjbOSz-lYovu0VYhpIB"
+            }
+        ];
+
+        function showToast(message, icon = "check_circle") {
+            const container = document.getElementById("toast-container");
+            const toast = document.createElement("div");
+            toast.className = "glass-card p-4 rounded-xl shadow-lg border border-white/50 flex items-center gap-3 pointer-events-auto transform translate-x-12 opacity-0 transition-all duration-300";
+            toast.innerHTML = `
+                <span class="material-symbols-outlined text-primary font-bold">${icon}</span>
+                <span class="text-sm font-semibold text-on-surface">${message}</span>
+            `;
+            container.appendChild(toast);
+            setTimeout(() => {
+                toast.classList.remove("translate-x-12", "opacity-0");
+            }, 50);
+            setTimeout(() => {
+                toast.classList.add("translate-x-12", "opacity-0");
+                setTimeout(() => toast.remove(), 300);
+            }, 3000);
+        }
+
+        function updateCartUI() {
+            const wrapper = document.getElementById("cart-items-wrapper");
+            const subtotalEl = document.getElementById("cart-subtotal");
+            const totalEl = document.getElementById("cart-total");
+            const badgeEl = document.getElementById("cart-badge");
+            const mobileBadgeEl = document.getElementById("mobile-cart-badge");
+            const countTxt = document.getElementById("cart-count-txt");
+
+            wrapper.innerHTML = "";
+            let subtotal = 0;
+            let totalItems = 0;
+
+            if (cart.length === 0) {
+                wrapper.innerHTML = `
+                    <div class="flex flex-col items-center justify-center py-16 text-center space-y-4">
+                        <span class="material-symbols-outlined text-on-surface-variant/40 text-[56px]">shopping_cart_off</span>
+                        <p class="text-sm font-bold text-on-surface-variant">Your basket is empty</p>
+                        <p class="text-xs text-on-surface-variant/75 max-w-xs">Add fresh Valley Lemon hand wash products to begin protecting your home.</p>
+                    </div>
+                `;
+            } else {
+                cart.forEach((item, index) => {
+                    subtotal += item.price * item.qty;
+                    totalItems += item.qty;
+                    const itemDiv = document.createElement("div");
+                    itemDiv.className = "flex items-center gap-4 bg-white/70 p-4 rounded-xl border border-outline-variant/10 shadow-sm hover:shadow-md transition-shadow";
+                    itemDiv.innerHTML = `
+                        <img src="${item.img}" alt="${item.name}" class="w-16 h-16 object-contain rounded-lg bg-surface-container-low p-1.5 border border-outline-variant/10"/>
+                        <div class="flex-1 text-left min-w-0">
+                            <h4 class="font-bold text-sm text-on-surface truncate">${item.name}</h4>
+                            <p class="text-primary font-bold text-sm mt-1">₹${item.price}</p>
+                            <div class="flex items-center justify-between mt-2.5">
+                                <div class="flex items-center border border-outline-variant/30 rounded-full bg-white/50">
+                                    <button class="qty-minus px-2 py-0.5 text-on-surface-variant hover:text-primary font-bold text-xs" data-index="${index}">-</button>
+                                    <span class="px-2 text-xs font-bold text-on-surface">${item.qty}</span>
+                                    <button class="qty-plus px-2 py-0.5 text-on-surface-variant hover:text-primary font-bold text-xs" data-index="${index}">+</button>
+                                </div>
+                                <button class="item-remove material-symbols-outlined text-[18px] text-on-surface-variant/60 hover:text-error transition-colors p-1" data-index="${index}">delete</button>
+                            </div>
+                        </div>
+                    `;
+                    wrapper.appendChild(itemDiv);
+                });
+            }
+
+            subtotalEl.innerText = `₹${subtotal}`;
+            totalEl.innerText = `₹${subtotal}`;
+            countTxt.innerText = `${totalItems} item${totalItems !== 1 ? 's' : ''} selected`;
+
+            if (totalItems > 0) {
+                badgeEl.innerText = totalItems;
+                badgeEl.classList.remove("scale-0");
+                badgeEl.classList.add("scale-100");
+                mobileBadgeEl.innerText = totalItems;
+                mobileBadgeEl.classList.remove("scale-0");
+                mobileBadgeEl.classList.add("scale-100");
+            } else {
+                badgeEl.classList.remove("scale-100");
+                badgeEl.classList.add("scale-0");
+                mobileBadgeEl.classList.remove("scale-100");
+                mobileBadgeEl.classList.add("scale-0");
+            }
+
+            document.querySelectorAll(".qty-minus").forEach(btn => {
+                btn.onclick = () => {
+                    const idx = parseInt(btn.dataset.index);
+                    if (cart[idx].qty > 1) {
+                        cart[idx].qty--;
+                    } else {
+                        cart.splice(idx, 1);
+                    }
+                    updateCartUI();
+                };
+            });
+            document.querySelectorAll(".qty-plus").forEach(btn => {
+                btn.onclick = () => {
+                    const idx = parseInt(btn.dataset.index);
+                    cart[idx].qty++;
+                    updateCartUI();
+                };
+            });
+            document.querySelectorAll(".item-remove").forEach(btn => {
+                btn.onclick = () => {
+                    const idx = parseInt(btn.dataset.index);
+                    cart.splice(idx, 1);
+                    updateCartUI();
+                };
+            });
+        }
+
+        function addToCart(id, name, price, img) {
+            const existing = cart.find(item => item.id === id);
+            if (existing) {
+                existing.qty++;
+            } else {
+                cart.push({ id, name, price, qty: 1, img });
+            }
+            updateCartUI();
+            showToast(`${name} added to basket!`, "add_shopping_cart");
+            toggleCartDrawer(true);
+        }
+
+        function toggleCartDrawer(open) {
+            const drawer = document.getElementById("cart-drawer");
+            const backdrop = document.getElementById("cart-backdrop");
+            const panel = document.getElementById("cart-panel");
+            if (open) {
+                document.body.classList.add("overflow-hidden");
+                drawer.classList.remove("hidden");
+                setTimeout(() => {
+                    backdrop.classList.remove("opacity-0");
+                    panel.classList.remove("translate-x-full");
+                }, 10);
+            } else {
+                document.body.classList.remove("overflow-hidden");
+                backdrop.classList.add("opacity-0");
+                panel.classList.add("translate-x-full");
+                setTimeout(() => {
+                    drawer.classList.add("hidden");
+                }, 300);
+            }
+        }
+
+        function toggleMenuDrawer(open) {
+            const drawer = document.getElementById("mobile-menu-drawer");
+            const backdrop = document.getElementById("mobile-menu-backdrop");
+            const panel = document.getElementById("mobile-menu-panel");
+            if (open) {
+                document.body.classList.add("overflow-hidden");
+                drawer.classList.remove("hidden");
+                setTimeout(() => {
+                    backdrop.classList.remove("opacity-0");
+                    panel.classList.remove("-translate-x-full");
+                }, 10);
+            } else {
+                document.body.classList.remove("overflow-hidden");
+                backdrop.classList.add("opacity-0");
+                panel.classList.add("-translate-x-full");
+                setTimeout(() => {
+                    drawer.classList.add("hidden");
+                }, 300);
+            }
+        }
+
+        function toggleCheckoutModal(open) {
+            const modal = document.getElementById("checkout-modal");
+            const backdrop = document.getElementById("checkout-backdrop");
+            const card = document.getElementById("checkout-card");
+            if (open) {
+                populateCheckoutSummary();
+                document.body.classList.add("overflow-hidden");
+                modal.classList.remove("hidden");
+                setTimeout(() => {
+                    backdrop.classList.remove("opacity-0");
+                    card.classList.remove("scale-95", "opacity-0");
+                }, 10);
+            } else {
+                document.body.classList.remove("overflow-hidden");
+                backdrop.classList.add("opacity-0");
+                card.classList.add("scale-95", "opacity-0");
+                setTimeout(() => {
+                    modal.classList.add("hidden");
+                }, 300);
+            }
+        }
+
+        function toggleSettingsModal(open) {
+            const modal = document.getElementById("settings-modal");
+            const backdrop = document.getElementById("settings-backdrop");
+            const card = document.getElementById("settings-card");
+            if (open) {
+                // Populate current settings fields
+                const provider = localStorage.getItem("email_provider") || "gmail_apps_script";
+                document.getElementById("settings-provider").value = provider;
+                document.getElementById("settings-script-url").value = localStorage.getItem("script_url") || "";
+                document.getElementById("settings-emailjs-service").value = localStorage.getItem("emailjs_service") || "";
+                document.getElementById("settings-emailjs-template").value = localStorage.getItem("emailjs_template") || "";
+                document.getElementById("settings-emailjs-public-key").value = localStorage.getItem("emailjs_public_key") || "";
+                document.getElementById("settings-web3forms-key").value = localStorage.getItem("web3forms_key") || WEB3FORMS_KEY;
+                
+                // Trigger view updates based on current provider selection
+                updateProviderFields(provider);
+                
+                document.body.classList.add("overflow-hidden");
+                modal.classList.remove("hidden");
+                setTimeout(() => {
+                    backdrop.classList.remove("opacity-0");
+                    card.classList.remove("scale-95", "opacity-0");
+                }, 10);
+            } else {
+                document.body.classList.remove("overflow-hidden");
+                backdrop.classList.add("opacity-0");
+                card.classList.add("scale-95", "opacity-0");
+                setTimeout(() => {
+                    modal.classList.add("hidden");
+                }, 300);
+            }
+        }
+
+        function updateProviderFields(provider) {
+            // Hide all field containers
+            document.getElementById("provider-fields-apps-script").classList.add("hidden");
+            document.getElementById("provider-fields-emailjs").classList.add("hidden");
+            document.getElementById("provider-fields-web3forms").classList.add("hidden");
+            
+            // Hide all instructions
+            document.getElementById("instructions-apps-script").classList.add("hidden");
+            document.getElementById("instructions-emailjs").classList.add("hidden");
+            document.getElementById("instructions-web3forms").classList.add("hidden");
+
+            // Show relevant containers
+            if (provider === "gmail_apps_script") {
+                document.getElementById("provider-fields-apps-script").classList.remove("hidden");
+                document.getElementById("instructions-apps-script").classList.remove("hidden");
+            } else if (provider === "emailjs") {
+                document.getElementById("provider-fields-emailjs").classList.remove("hidden");
+                document.getElementById("instructions-emailjs").classList.remove("hidden");
+            } else if (provider === "web3forms") {
+                document.getElementById("provider-fields-web3forms").classList.remove("hidden");
+                document.getElementById("instructions-web3forms").classList.remove("hidden");
+            }
+        }
+
+        function loadEmailJSSDK() {
+            if (window.emailjs) return;
+            const script = document.createElement("script");
+            script.type = "text/javascript";
+            script.src = "https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js";
+            script.onload = () => {
+                const publicKey = localStorage.getItem("emailjs_public_key");
+                if (publicKey) {
+                    emailjs.init({
+                        publicKey: publicKey,
+                    });
+                }
+            };
+            document.head.appendChild(script);
+        }
+
+        function populateCheckoutSummary() {
+            const summaryWrapper = document.getElementById("checkout-summary-items");
+            const subtotalEl = document.getElementById("checkout-subtotal");
+            const totalEl = document.getElementById("checkout-total");
+            
+            summaryWrapper.innerHTML = "";
+            let subtotal = 0;
+            
+            cart.forEach(item => {
+                subtotal += item.price * item.qty;
+                const itemDiv = document.createElement("div");
+                itemDiv.className = "flex justify-between items-start gap-4 text-xs border-b border-outline-variant/10 pb-2";
+                itemDiv.innerHTML = `
+                    <div class="min-w-0">
+                        <p class="font-bold text-on-surface truncate">${item.name}</p>
+                        <p class="text-on-surface-variant/75 mt-0.5">Qty: ${item.qty} × ₹${item.price}</p>
+                    </div>
+                    <span class="font-bold text-on-surface flex-shrink-0">₹${item.price * item.qty}</span>
+                `;
+                summaryWrapper.appendChild(itemDiv);
+            });
+            
+            subtotalEl.innerText = `₹${subtotal}`;
+            totalEl.innerText = `₹${subtotal}`;
+        }
+
+        function toggleStandardsModal(open) {
+            const modal = document.getElementById("standards-modal");
+            const backdrop = document.getElementById("standards-backdrop");
+            const card = document.getElementById("standards-card");
+            if (open) {
+                document.body.classList.add("overflow-hidden");
+                modal.classList.remove("hidden");
+                setTimeout(() => {
+                    backdrop.classList.remove("opacity-0");
+                    card.classList.remove("scale-95", "opacity-0");
+                }, 10);
+            } else {
+                document.body.classList.remove("overflow-hidden");
+                backdrop.classList.add("opacity-0");
+                card.classList.add("scale-95", "opacity-0");
+                setTimeout(() => {
+                    modal.classList.add("hidden");
+                }, 300);
+            }
+        }
+
+        let currentQuickViewProduct = null;
+        function toggleQuickviewModal(open, triggerData = null) {
+            const modal = document.getElementById("quickview-modal");
+            const backdrop = document.getElementById("quickview-backdrop");
+            const card = document.getElementById("quickview-card");
+
+            if (open && triggerData) {
+                document.body.classList.add("overflow-hidden");
+                document.getElementById("quickview-img").src = triggerData.img;
+                document.getElementById("quickview-img").alt = triggerData.title;
+                document.getElementById("quickview-title").innerText = triggerData.title;
+                document.getElementById("quickview-price").innerText = triggerData.price;
+                document.getElementById("quickview-mrp").innerText = triggerData.mrp;
+                document.getElementById("quickview-desc").innerText = triggerData.desc;
+                document.getElementById("quickview-tag").innerText = triggerData.tag;
+                currentQuickViewProduct = triggerData;
+                modal.classList.remove("hidden");
+                setTimeout(() => {
+                    backdrop.classList.remove("opacity-0");
+                    card.classList.remove("scale-95", "opacity-0");
+                }, 10);
+            } else {
+                document.body.classList.remove("overflow-hidden");
+                backdrop.classList.add("opacity-0");
+                card.classList.add("scale-95", "opacity-0");
+                setTimeout(() => {
+                    modal.classList.add("hidden");
+                    currentQuickViewProduct = null;
+                }, 300);
+            }
+        }
+
+        const carousel = document.getElementById("reviews-container");
+        const nextBtn = document.getElementById("next-review-btn");
+        const prevBtn = document.getElementById("prev-review-btn");
+        nextBtn.onclick = () => {
+            const cardWidth = carousel.firstElementChild.offsetWidth + 24;
+            carousel.scrollBy({ left: cardWidth, behavior: 'smooth' });
+        };
+        prevBtn.onclick = () => {
+            const cardWidth = carousel.firstElementChild.offsetWidth + 24;
+            carousel.scrollBy({ left: -cardWidth, behavior: 'smooth' });
+        };
+
+        document.addEventListener("DOMContentLoaded", () => {
+            updateCartUI();
+
+            // Load saved email settings
+            const emailProvider = localStorage.getItem("email_provider") || "gmail_apps_script";
+            if (emailProvider === "emailjs") {
+                loadEmailJSSDK();
+            }
+
+            // Developer settings button triggers
+            document.getElementById("settings-btn").onclick = () => toggleSettingsModal(true);
+            document.getElementById("mobile-settings-btn").onclick = () => {
+                toggleMenuDrawer(false);
+                setTimeout(() => toggleSettingsModal(true), 350);
+            };
+            document.getElementById("settings-close-btn").onclick = () => toggleSettingsModal(false);
+            document.getElementById("settings-backdrop").onclick = () => toggleSettingsModal(false);
+
+            // Provider selection dynamic fields logic
+            document.getElementById("settings-provider").onchange = (e) => {
+                updateProviderFields(e.target.value);
+                if (e.target.value === "emailjs") {
+                    loadEmailJSSDK();
+                }
+            };
+
+            // Copy script button handler
+            document.getElementById("copy-script-btn").onclick = (e) => {
+                e.preventDefault();
+                const code = `function doPost(e) {
+  try {
+    var params = JSON.parse(e.postData.contents);
+    var email = params.email;
+    var subject = params.subject;
+    var message = params.message;
+    
+    MailApp.sendEmail({
+      to: email,
+      subject: subject,
+      body: message
+    });
+    
+    return ContentService.createTextOutput(JSON.stringify({ success: true }))
+      .setMimeType(ContentService.MimeType.JSON);
+  } catch (error) {
+    return ContentService.createTextOutput(JSON.stringify({ success: false, error: error.toString() }))
+      .setMimeType(ContentService.MimeType.JSON);
+  }
+}`;
+                navigator.clipboard.writeText(code).then(() => {
+                    showToast("Google Script code copied!", "content_copy");
+                }).catch(() => {
+                    showToast("Failed to copy code.", "error");
+                });
+            };
+
+            // Settings form submit handler
+            document.getElementById("settings-form").onsubmit = (e) => {
+                e.preventDefault();
+                const provider = document.getElementById("settings-provider").value;
+                localStorage.setItem("email_provider", provider);
+                localStorage.setItem("script_url", document.getElementById("settings-script-url").value.trim());
+                localStorage.setItem("emailjs_service", document.getElementById("settings-emailjs-service").value.trim());
+                localStorage.setItem("emailjs_template", document.getElementById("settings-emailjs-template").value.trim());
+                localStorage.setItem("emailjs_public_key", document.getElementById("settings-emailjs-public-key").value.trim());
+                localStorage.setItem("web3forms_key", document.getElementById("settings-web3forms-key").value.trim());
+                
+                showToast("Email configuration saved!", "check_circle");
+                toggleSettingsModal(false);
+            };
+
+            document.getElementById("cart-btn").onclick = () => toggleCartDrawer(true);
+            document.getElementById("mobile-cart-btn").onclick = () => toggleCartDrawer(true);
+            document.getElementById("cart-close-btn").onclick = () => toggleCartDrawer(false);
+            document.getElementById("cart-backdrop").onclick = () => toggleCartDrawer(false);
+            document.getElementById("cart-continue-btn").onclick = () => toggleCartDrawer(false);
+
+            document.getElementById("checkout-btn").onclick = () => {
+                if (cart.length === 0) {
+                    showToast("Your basket is empty. Please add items to checkout.", "warning");
+                    return;
+                }
+                toggleCartDrawer(false);
+                toggleCheckoutModal(true);
+            };
+
+            document.getElementById("checkout-close-btn").onclick = () => toggleCheckoutModal(false);
+            document.getElementById("checkout-backdrop").onclick = () => toggleCheckoutModal(false);
+
+            document.getElementById("checkout-form").onsubmit = (e) => {
+                e.preventDefault();
+                
+                const name = document.getElementById("checkout-name").value;
+                const email = document.getElementById("checkout-email").value;
+                const address = document.getElementById("checkout-address").value;
+                
+                const submitBtn = document.getElementById("checkout-submit-btn");
+                submitBtn.disabled = true;
+                const origBtnText = submitBtn.innerHTML;
+                submitBtn.innerHTML = `<span class="material-symbols-outlined text-[16px] animate-spin">sync</span>Processing...`;
+                
+                let total = 0;
+                let billText = `VALLEY LEMON HAND WASH - ORDER RECEIPT\n`;
+                billText += `==========================================\n\n`;
+                billText += `Customer Name: ${name}\n`;
+                billText += `Customer Email: ${email}\n`;
+                billText += `Delivery Address:\n${address}\n\n`;
+                billText += `ORDER DETAILS:\n`;
+                billText += `------------------------------------------\n`;
+                cart.forEach(item => {
+                    billText += `- ${item.name}\n  Qty: ${item.qty} | Price: ₹${item.price} | Subtotal: ₹${item.price * item.qty}\n`;
+                    total += item.price * item.qty;
+                });
+                billText += `------------------------------------------\n`;
+                billText += `Subtotal: ₹${total}\n`;
+                billText += `Delivery: FREE\n`;
+                billText += `TOTAL AMOUNT PAYABLE: ₹${total}\n\n`;
+                billText += `==========================================\n`;
+                billText += `Thank you for shopping with Valley Lemon!\n`;
+                billText += `We will ship your organic purity products shortly.`;
+                
+                setTimeout(() => {
+                    // Display beautiful order confirmation receipt
+                    const overlay = document.createElement("div");
+                    overlay.id = "order-success-overlay";
+                    overlay.className = "fixed inset-0 z-[120] bg-black/60 backdrop-blur-sm flex items-center justify-center p-4";
+                    overlay.innerHTML = `
+                        <div class="bg-white rounded-2xl max-w-md w-full p-6 shadow-2xl border border-outline-variant/20 relative text-left animate-fade-in">
+                            <div class="text-center mb-4">
+                                <div class="w-12 h-12 rounded-full bg-primary/10 text-primary flex items-center justify-center mx-auto mb-2">
+                                    <span class="material-symbols-outlined text-[26px]">check_circle</span>
+                                </div>
+                                <h4 class="font-display-lg text-[18px] text-on-surface font-extrabold">Order Placed Successfully!</h4>
+                                <p class="text-[11px] text-on-surface-variant mt-1">A detailed bill has been generated for <strong>${email}</strong>.</p>
+                            </div>
+                            <div class="bg-surface-container-low rounded-xl p-4 font-mono text-[10px] text-on-surface-variant overflow-y-auto max-h-[220px] whitespace-pre-wrap border border-outline-variant/10 leading-relaxed">
+${billText}
+                            </div>
+                            <button id="close-success-btn" class="w-full bg-primary text-white hover:bg-primary-container/95 transition-all py-3 rounded-full font-label-sm text-[12px] font-bold mt-4 shadow-md">
+                                Continue Shopping
+                            </button>
+                        </div>
+                    `;
+                    document.body.appendChild(overlay);
+                    document.getElementById("close-success-btn").onclick = () => {
+                        overlay.remove();
+                        completeOrderFlow();
+                    };
+                }, 600);
+                
+                function completeOrderFlow() {
+                    cart = [];
+                    updateCartUI();
+                    toggleCheckoutModal(false);
+                    document.getElementById("checkout-form").reset();
+                    submitBtn.disabled = false;
+                    submitBtn.innerHTML = origBtnText;
+                }
+            };
+
+            document.getElementById("menu-btn").onclick = () => toggleMenuDrawer(true);
+            document.getElementById("menu-close-btn").onclick = () => toggleMenuDrawer(false);
+            document.getElementById("mobile-menu-backdrop").onclick = () => toggleMenuDrawer(false);
+            document.querySelectorAll(".mobile-menu-link").forEach(link => {
+                link.onclick = () => toggleMenuDrawer(false);
+            });
+
+            document.getElementById("standards-trigger-btn").onclick = () => toggleStandardsModal(true);
+            document.getElementById("menu-standards-btn").onclick = () => {
+                toggleMenuDrawer(false);
+                setTimeout(() => toggleStandardsModal(true), 350);
+            };
+            document.getElementById("footer-standards-link").onclick = (e) => {
+                e.preventDefault();
+                toggleStandardsModal(true);
+            };
+            document.getElementById("standards-close-btn").onclick = () => toggleStandardsModal(false);
+            document.getElementById("standards-backdrop").onclick = () => toggleStandardsModal(false);
+            document.getElementById("standards-modal-btn").onclick = () => toggleStandardsModal(false);
+
+            document.querySelectorAll(".quickview-trigger").forEach(btn => {
+                btn.onclick = () => {
+                    const ds = btn.dataset;
+                    toggleQuickviewModal(true, {
+                        id: ds.id,
+                        title: ds.title,
+                        price: ds.price,
+                        mrp: ds.mrp,
+                        tag: ds.tag,
+                        desc: ds.desc,
+                        img: ds.img
+                    });
+                };
+            });
+            document.getElementById("quickview-close-btn").onclick = () => toggleQuickviewModal(false);
+            document.getElementById("quickview-backdrop").onclick = () => toggleQuickviewModal(false);
+            
+            document.getElementById("quickview-add-btn").onclick = () => {
+                if (currentQuickViewProduct) {
+                    const cleanPrice = parseInt(currentQuickViewProduct.price.replace("₹", ""));
+                    addToCart(
+                        currentQuickViewProduct.id, 
+                        currentQuickViewProduct.title, 
+                        cleanPrice, 
+                        currentQuickViewProduct.img
+                    );
+                    toggleQuickviewModal(false);
+                }
+            };
+
+            document.getElementById("subscribe-form").onsubmit = (e) => {
+                e.preventDefault();
+                const email = document.getElementById("subscribe-email").value;
+                
+                const subscribeBtn = document.querySelector("#subscribe-form button");
+                const origBtnText = subscribeBtn.innerHTML;
+                subscribeBtn.disabled = true;
+                subscribeBtn.innerHTML = `<span class="material-symbols-outlined text-[14px] animate-spin">sync</span>`;
+                
+                let tipsText = `VALLEY LEMON - FAMILY HYGIENE GUIDE\n`;
+                tipsText += `==========================================\n\n`;
+                tipsText += `Hello subscriber!\n`;
+                tipsText += `Thank you for subscribing to Valley Lemon updates. Here is your quick Family Hand Hygiene Guide:\n\n`;
+                tipsText += `1. THE 20-SECOND RULE:\n   Always wash hands for at least 20 seconds. Scrub your palms, backs of hands, between fingers, and under nails.\n\n`;
+                tipsText += `2. KEY WASHING MOMENTS:\n   Always wash hands before meals, after using the washroom, after returning from outside, and after touching pets.\n\n`;
+                tipsText += `3. pH BALANCE MATTERS:\n   Frequent washing can dry out skin. Valley Lemon's pH 5.5 balanced formula helps keep your hands soft, moisturized, and clinically protected (99.9% germ-shield).\n\n`;
+                tipsText += `4. TOUCHPOINTS CLEANING:\n   Disinfect common household touchpoints regularly, such as doorknobs, phone screens, light switches, and taps.\n\n`;
+                tipsText += `5. DRY CAREFULLY:\n   Wet hands spread germs 1,000 times faster than dry hands. Always dry your hands with a clean, dry towel.\n\n`;
+                tipsText += `==========================================\n`;
+                tipsText += `Stay Fresh & Stay Safe!\n`;
+                tipsText += `Valley Lemon Organic Care Team`;
+
+                setTimeout(() => {
+                    // Display beautiful confirmation dialog with tips on screen
+                    const overlay = document.createElement("div");
+                    overlay.id = "tips-success-overlay";
+                    overlay.className = "fixed inset-0 z-[120] bg-black/60 backdrop-blur-sm flex items-center justify-center p-4";
+                    overlay.innerHTML = `
+                        <div class="bg-white rounded-2xl max-w-md w-full p-6 shadow-2xl border border-outline-variant/20 relative text-left animate-fade-in">
+                            <div class="text-center mb-4">
+                                <div class="w-12 h-12 rounded-full bg-primary/10 text-primary flex items-center justify-center mx-auto mb-2">
+                                    <span class="material-symbols-outlined text-[26px]">volunteer_activism</span>
+                                </div>
+                                <h4 class="font-display-lg text-[18px] text-on-surface font-extrabold">Subscribed Successfully!</h4>
+                                <p class="text-[11px] text-on-surface-variant mt-1">Here is your hygiene guide prepared for <strong>${email}</strong>.</p>
+                            </div>
+                            <div class="bg-surface-container-low rounded-xl p-4 font-mono text-[10px] text-on-surface-variant overflow-y-auto max-h-[220px] whitespace-pre-wrap border border-outline-variant/10 leading-relaxed">
+${tipsText}
+                            </div>
+                            <button id="close-tips-btn" class="w-full bg-primary text-white hover:bg-primary-container/95 transition-all py-3 rounded-full font-label-sm text-[12px] font-bold mt-4 shadow-md">
+                                Got It, Thanks!
+                            </button>
+                        </div>
+                    `;
+                    document.body.appendChild(overlay);
+                    document.getElementById("close-tips-btn").onclick = () => {
+                        overlay.remove();
+                    };
+                    document.getElementById("subscribe-email").value = "";
+                    showToast("Subscription successful!", "celebration");
+                    
+                    subscribeBtn.disabled = false;
+                    subscribeBtn.innerHTML = origBtnText;
+                }, 500);
+            };
+
+            document.querySelectorAll(".faq-item").forEach(item => {
+                const summary = item.querySelector("summary");
+                const content = item.querySelector(".faq-content");
+                summary.onclick = (e) => {
+                    e.preventDefault();
+                    const isOpen = item.hasAttribute("open");
+                    if (isOpen) {
+                        content.style.maxHeight = "0";
+                        content.style.opacity = "0";
+                        setTimeout(() => item.removeAttribute("open"), 300);
+                    } else {
+                        document.querySelectorAll(".faq-item").forEach(other => {
+                            if (other !== item && other.hasAttribute("open")) {
+                                other.querySelector(".faq-content").style.maxHeight = "0";
+                                other.querySelector(".faq-content").style.opacity = "0";
+                                other.removeAttribute("open");
+                            }
+                        });
+                        item.setAttribute("open", "");
+                        content.style.maxHeight = content.scrollHeight + "px";
+                        content.style.opacity = "1";
+                    }
+                };
+            });
+
+            const backToTop = document.getElementById("back-to-top");
+            window.addEventListener("scroll", () => {
+                if (window.scrollY > 300) {
+                    backToTop.classList.remove("translate-y-20", "opacity-0");
+                    backToTop.classList.add("translate-y-0", "opacity-100");
+                } else {
+                    backToTop.classList.remove("translate-y-0", "opacity-100");
+                    backToTop.classList.add("translate-y-20", "opacity-0");
+                }
+            });
+            backToTop.onclick = () => {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            };
+
+            window.addEventListener("scroll", () => {
+                const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+                const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+                const scrolled = (winScroll / height) * 100;
+                document.getElementById("scroll-progress").style.width = scrolled + "%";
+            });
+
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add("reveal-active");
+                    }
+                });
+            }, { threshold: 0.1 });
+            document.querySelectorAll(".reveal").forEach(el => {
+                observer.observe(el);
+            });
+
+            const sections = document.querySelectorAll("section");
+            const mobileTabs = document.querySelectorAll(".mobile-tab");
+            window.addEventListener("scroll", () => {
+                let currentSec = "";
+                sections.forEach(sec => {
+                    const top = sec.offsetTop - 120;
+                    if (window.scrollY >= top) {
+                        currentSec = sec.getAttribute("id");
+                    }
+                });
+                mobileTabs.forEach((tab, index) => {
+                    const href = tab.getAttribute("href");
+                    if (href && href.substring(1) === currentSec) {
+                        mobileTabs.forEach(t => t.classList.remove("text-primary"));
+                        mobileTabs.forEach(t => t.classList.add("text-on-surface-variant"));
+                        tab.classList.remove("text-on-surface-variant");
+                        tab.classList.add("text-primary");
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
